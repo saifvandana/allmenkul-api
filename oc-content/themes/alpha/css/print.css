@@ -1,0 +1,18 @@
+body {background:#fff;}
+header, footer, #bread, #listing .data .price .like, #listing .data .connect, #listing .data .item-share, #listing .side .line2, 
+#listing .item > div#comment, #listing .item > div.related, .item-bx-pager, .bx-controls, .basic h2, #piracy, #pick-color,
+#listing .side h2, #listing .side .stats span, .flash-box {display:none;}
+
+#listing .side .stats span.right {display:block;float:left;}
+#listing .item > div, #listing .side .data .price, #listing .data .map h4 {padding:0;}
+#listing .data .map, #listing .side .data .price {margin-top:0;}
+#img .bx-wrapper, #listing .item .data .description, #listing .side > div {margin-bottom:0;}
+.list.bx-slider {float:left;clear:both;width:102%!important;margin-left:-1%;margin-right:-1%;}
+.list.bx-slider li {float:left;clear:none;width:48%!important;margin:0 1% 20px 1%;border:1px solid #ccc;border-radius:8px;overflow:hidden;}
+.bx-wrapper .bx-viewport {height:auto!important;}
+.basic {margin:20px 0 0 0;}
+#listing .item, #listing .side {margin-bottom:20px;}
+#listing .side {padding-left:15px;}
+#listing .side .line {padding:8px;border:1px solid rgba(0,0,0,0.1);border-radius:8px;}
+.inside, .inner, body#body-custom section {max-width:100%;}
+#listing .item .data .description .text {color:#333;}

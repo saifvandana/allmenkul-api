@@ -1,0 +1,566 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Attributes Plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-04 09:10+0100\n"
+"PO-Revision-Date: 2022-04-07 17:10+0300\n"
+"Last-Translator: Miso <miso546@azet.sk>\n"
+"Language-Team: MB Themes <info@mb-themes.com>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-KeywordsList: __;_e;_m\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: languages/en_US\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: admin/configure.php:3 admin/configure.php:157 admin/edit.php:3 index.php:73
+#: index.php:82 index.php:112
+msgid "Configure"
+msgstr "Yapılandır"
+
+#: admin/configure.php:14 admin/edit.php:12
+msgid "Settings were successfully saved"
+msgstr "Ayarlar başarıyla kaydedildi"
+
+#: admin/configure.php:50 admin/edit.php:50
+msgid ""
+"There was problem updating attribute, database structure for table "
+"t_attribute does not match! Disable/Enable plugin and if error still "
+"persist, reinstall plugin."
+msgstr ""
+"Öznitelik güncellenirken sorun oluştu, t_attribute tablosunun veritabanı "
+"yapısı eşleşmiyor! Eklentiyi devre dışı bırakın/etkinleştirin ve hata devam "
+"ederse eklentiyi yeniden yükleyin."
+
+#: admin/configure.php:52 admin/edit.php:52
+msgid "Attribute successfully updated"
+msgstr "Özellik başarıyla güncellendi"
+
+#: admin/configure.php:71
+msgid "Attribute removed successfully"
+msgstr "Özellik başarıyla kaldırıldı"
+
+#: admin/configure.php:80
+msgid "Attribute created successfully"
+msgstr "Öznitelik başarıyla oluşturuldu"
+
+#: admin/configure.php:96 functions.php:374
+msgid "Attributes"
+msgstr "Öznitellikler"
+
+#: admin/configure.php:121 functions.php:43 functions.php:498 functions.php:839
+msgid "New attribute"
+msgstr "Yeni özellik"
+
+#: admin/configure.php:129
+msgid "values"
+msgstr "değerler"
+
+#: admin/configure.php:132
+msgid "Are you sure you want to remove this attribute? Action cannot be undone"
+msgstr "Bu özelliği kaldırmak istediğinizden emin misiniz? İşlem geri alınamaz"
+
+#: admin/configure.php:132
+msgid "Delete"
+msgstr "Sil"
+
+#: admin/configure.php:135
+msgid "Edit"
+msgstr "Düzenle"
+
+#: admin/configure.php:144
+msgid "You have not created any attributes yet"
+msgstr "Henüz herhangi bir özellik oluşturmadınız"
+
+#: admin/configure.php:147
+msgid "Add new attribute"
+msgstr "Yeni özellik ekle"
+
+#: admin/configure.php:168
+msgid "Styled Inputs"
+msgstr "Tarz Girdileri"
+
+#: admin/configure.php:171
+msgid ""
+"When enabled, all inputs (input, select, textarea, ...) will be styled by "
+"plugin. Disable this if your theme style plugin inputs in acceptable way."
+msgstr ""
+"Etkinleştirildiğinde, tüm girişler (input, select, textarea, ...) eklenti "
+"tarafından şekillendirilecektir. Tema stili eklentiniz kabul edilebilir bir "
+"şekilde giriş yapıyorsa bunu devre dışı bırakın."
+
+#: admin/configure.php:178
+msgid "This is demo site"
+msgstr "Demo site"
+
+#: admin/configure.php:178 admin/configure.php:180
+msgid "Save"
+msgstr "Kaydet"
+
+#: admin/configure.php:190 admin/edit.php:252
+msgid "Plugin Setup"
+msgstr "Eklenti Kurulumu"
+
+#: admin/configure.php:194 admin/edit.php:256
+msgid ""
+"No theme modification are required to use all functions of plugin on 100%, "
+"however if you want to place some attributes on item page (or loops) to "
+"other than hook position, you can show each field calling following function."
+msgstr ""
+"Eklentinin tüm işlevlerini %100'de kullanmak için herhangi bir tema "
+"değişikliği gerekmez, ancak öğe sayfasına (veya döngülere) kanca konumu "
+"dışında bazı nitelikler yerleştirmek istiyorsanız, aşağıdaki işlevi çağıran "
+"her alanı gösterebilirsiniz."
+
+#: admin/configure.php:198 admin/edit.php:260
+msgid ""
+"{attribute id} replace with ID of attribute. Example: "
+"atr_show_attribute( 7 );"
+msgstr ""
+"{attribute id}, özniteliğin kimliğiyle değiştirin. Örnek: "
+"atr_show_attribute( 7 );"
+
+#: admin/configure.php:209 admin/edit.php:301
+msgid "Success!"
+msgstr "Başarılı!"
+
+#: admin/configure.php:210 admin/edit.php:302
+msgid "Updating, please wait..."
+msgstr "Güncelleniyor, lütfen bekleyin..."
+
+#: admin/configure.php:211 admin/edit.php:303
+msgid "Error!"
+msgstr "Hata!"
+
+#: admin/edit.php:80
+msgid "Edit attribute"
+msgstr "Özelliği düzenle"
+
+#: admin/edit.php:107
+msgid "Attribute Id"
+msgstr "Özellik Id"
+
+#: admin/edit.php:112
+msgid "Attribute Name"
+msgstr "Özellik Adı"
+
+#: admin/edit.php:117
+msgid "Identifier"
+msgstr "Tanımlayıcı"
+
+#: admin/edit.php:122
+msgid "Type"
+msgstr "Tip"
+
+#: admin/edit.php:124 admin/edit.php:179
+msgid "Select box"
+msgstr "Seçim kutusu"
+
+#: admin/edit.php:125 admin/edit.php:180
+msgid "Radio buttons"
+msgstr "Radyo buton"
+
+#: admin/edit.php:126
+msgid "Checkboxes"
+msgstr "Onay kutusu"
+
+#: admin/edit.php:127
+msgid "Text input"
+msgstr "Metin girişi"
+
+#: admin/edit.php:128
+msgid "Numerical input"
+msgstr "Sayısal giriş"
+
+#: admin/edit.php:129
+msgid "Text area"
+msgstr "Metin alanı"
+
+#: admin/edit.php:130
+msgid "Date"
+msgstr "Tarih"
+
+#: admin/edit.php:131
+msgid "Date range"
+msgstr "Tarih aralığı"
+
+#: admin/edit.php:132
+msgid "URL address"
+msgstr "URL adresi"
+
+#: admin/edit.php:133
+msgid "Phone number"
+msgstr "Telefon numarası"
+
+#: admin/edit.php:134
+msgid "Email address"
+msgstr "E-posta adresi"
+
+#: admin/edit.php:140
+msgid "Category"
+msgstr "Kategori"
+
+#: admin/edit.php:147
+msgid "If not category selected, advert is shown in all categories."
+msgstr "Kategori seçilmediyse tüm kategorilerde reklam gösterilir."
+
+#: admin/edit.php:151
+msgid "Enabled"
+msgstr "Etkinleştirilmiş"
+
+#: admin/edit.php:156
+msgid "Required"
+msgstr "Gerekli"
+
+#: admin/edit.php:161
+msgid "Add to Item"
+msgstr "İlana Ekle"
+
+#: admin/edit.php:166
+msgid "Show all Values"
+msgstr "Show all Values"
+
+#: admin/edit.php:171
+msgid "Add to Search"
+msgstr "Aramaya Ekle"
+
+#: admin/edit.php:176
+msgid "Search Type"
+msgstr "Arama Tipi"
+
+#: admin/edit.php:178
+msgid "Default"
+msgstr "Varsayılan"
+
+#: admin/edit.php:181
+msgid "Checkbox"
+msgstr "Onay kutusu"
+
+#: admin/edit.php:182
+msgid "Boxed layout (radio/check)"
+msgstr "Kutulu düzen (radyo/kontrol)"
+
+#: admin/edit.php:187
+msgid "Search Engine"
+msgstr "Arama motoru"
+
+#: admin/edit.php:189
+msgid "Item match to all selected values"
+msgstr "Öğe seçili tüm değerlerle eşleşiyor"
+
+#: admin/edit.php:190
+msgid "Item match to any of selected values"
+msgstr "Öğe seçili değerlerden herhangi biriyle eşleşiyor"
+
+#: admin/edit.php:195
+msgid "Search Values"
+msgstr "Arama Değerleri"
+
+#: admin/edit.php:197
+msgid "Show all attribute values"
+msgstr "Tüm özellik değerlerini göster"
+
+#: admin/edit.php:198
+msgid "Show only non-empty values"
+msgstr "Yalnızca boş olmayan değerleri göster"
+
+#: admin/edit.php:203
+msgid "Range Search"
+msgstr "Aralık Arama"
+
+#: admin/edit.php:208
+msgid "Single Selection"
+msgstr "Tek Seçim"
+
+#: admin/edit.php:215
+msgid "Attribute values"
+msgstr "Öznitelik değerleri"
+
+#: admin/edit.php:216
+msgid "No values added yet"
+msgstr "Henüz değer eklenmemiş"
+
+#: admin/edit.php:217
+msgid "Custom values are not allowed for this type of attribute"
+msgstr "Bu özellik türü için özel değerlere izin verilmez"
+
+#: admin/edit.php:224
+msgid "Add value"
+msgstr "Değer katmak"
+
+#: admin/edit.php:227
+msgid "... or create from list: val1;val2;val3;..."
+msgstr "... veya listeden oluşturun: val1;val2;val3;..."
+
+#: admin/edit.php:228
+msgid "Ok"
+msgstr "Tamam"
+
+#: admin/edit.php:235
+msgid "Update attribute"
+msgstr "Özelliği güncelle"
+
+#: admin/edit.php:269
+msgid "Help"
+msgstr "Yardım"
+
+#: admin/edit.php:272
+msgid ""
+"Unique attribute ID, cannot be changed and is automatically generated by "
+"plugin."
+msgstr ""
+"Benzersiz öznitelik kimliği, değiştirilemez ve eklenti tarafından otomatik "
+"olarak oluşturulur."
+
+#: admin/edit.php:273
+msgid ""
+"Name is used as label and can be multilingual - for each language different."
+msgstr ""
+"Ad, etiket olarak kullanılır ve çok dilli olabilir - her dil için farklıdır."
+
+#: admin/edit.php:274
+msgid ""
+"Identifier is used as ID on row that keeps attribute data in pattern \"atr-"
+"{identifier}\" so you can reference to in in style sheets."
+msgstr ""
+"Tanımlayıcı, stil sayfalarında in referans verebilmeniz için \"atr-"
+"{identifier}\" modelinde öznitelik verilerini tutan satırda kimlik olarak "
+"kullanılır."
+
+#: admin/edit.php:275
+msgid ""
+"Type of attribute. Select box can have nested values up to 8 levels. Radio & "
+"checkboxes can have values and are multilingual. Other inputs cannot have "
+"values."
+msgstr ""
+"Öznitelik türü. Seçim kutusu, 8 düzeye kadar iç içe değerlere sahip "
+"olabilir. Radyo ve onay kutularının değerleri olabilir ve çok dillidir. "
+"Diğer girdilerin değerleri olamaz."
+
+#: admin/edit.php:276
+msgid ""
+"Select in which categories will be attribute shown. This takes effect on "
+"search & publish page. If no category is selected, attribute is shown in all "
+"categories."
+msgstr ""
+"Özniteliğin hangi kategorilerde gösterileceğini seçin. Bu, arama ve "
+"yayınlama sayfasında etkili olur. Herhangi bir kategori seçilmezse, tüm "
+"kategorilerde öznitelik gösterilir."
+
+#: admin/edit.php:277
+msgid ""
+"If attribute is disabled, it is not showing on publish, edit and search page"
+msgstr ""
+"Öznitelik devre dışı bırakılırsa, yayınlama, düzenleme ve arama sayfasında "
+"gösterilmez."
+
+#: admin/edit.php:278
+msgid ""
+"When required, on publish & edit page user must enter value. This works for "
+"checkboxes as well (at least 1 must be selected)."
+msgstr ""
+"Gerektiğinde, yayınla ve düzenle sayfasında kullanıcı değer girmelidir. Bu, "
+"onay kutuları için de geçerlidir (en az 1 seçilmelidir)."
+
+#: admin/edit.php:279
+msgid ""
+"Enable to add field into search form on search page. Users can search by "
+"this attribute then. Text fields (text, phone, email, ...) are searched "
+"using wild character (contains)."
+msgstr ""
+"Arama sayfasındaki arama formuna alan eklemek için etkinleştirin. "
+"Kullanıcılar daha sonra bu özelliğe göre arama yapabilir. Metin alanları "
+"(metin, telefon, e-posta, ...) vahşi karakter (içerir) kullanılarak aranır."
+
+#: admin/edit.php:280
+msgid ""
+"Enable to add attribute into hook. This attribute will be shown on item page "
+"without need to modify theme. You may disable this and add attribute "
+"manually to item.php on place you like."
+msgstr ""
+"Kancaya öznitelik eklemek için etkinleştirin. Bu özellik, temayı "
+"değiştirmeye gerek kalmadan öğe sayfasında gösterilecektir. Bunu devre dışı "
+"bırakabilir ve istediğiniz yerde item.php'ye manuel olarak öznitelik "
+"ekleyebilirsiniz."
+
+#: admin/edit.php:281
+msgid ""
+"When enabled, then all radio & checkbox values are shown on item page. Those "
+"not selected by user are shaded. For select boxes, whole hierarchy is shown "
+"instead of lowest level."
+msgstr ""
+"Etkinleştirildiğinde, tüm radyo ve onay kutusu değerleri öğe sayfasında "
+"gösterilir. Kullanıcı tarafından seçilmeyenler gölgelenir. Seçim kutuları "
+"için en düşük seviye yerine tüm hiyerarşi gösterilir."
+
+#: admin/edit.php:282
+msgid ""
+"For select box, radio buttons and checkboxes you may select different layout "
+"that will be used on search page: Select box or Radio buttons. Even this "
+"feature is enabled also for multi-level select boxes, we recommend to use it "
+"just for 1 level select box."
+msgstr ""
+"Seçim kutusu, radyo düğmeleri ve onay kutuları için arama sayfasında "
+"kullanılacak farklı bir düzen seçebilirsiniz: Seçim kutusu veya Radyo "
+"düğmeleri. Bu özellik çok seviyeli seçim kutuları için de etkinleştirilse "
+"bile, sadece 1 seviye seçim kutusu için kullanmanızı öneririz."
+
+#: admin/edit.php:283
+msgid ""
+"When enabled, on search page range search for this attribute will be "
+"generated and will consist of 2 inputs those accept only numerical values. "
+"This option is enabled for select box, radio buttons, checkboxes, text and "
+"textarea types of attributes. When attribute has predefined values, IDs of "
+"these values are used for comparison, otherwise field value is used. It is "
+"recommended just for fields with numerical values, however plugin will "
+"convert also strings into integers (i.e. 5 seats is converted into number "
+"5). Anyway it works for string values, we guarantee correct functionality "
+"just for numerical values."
+msgstr ""
+"Etkinleştirildiğinde, arama sayfası aralığında bu öznitelik araması "
+"oluşturulacak ve yalnızca sayısal değerleri kabul eden 2 girişten "
+"oluşacaktır. Bu seçenek, seçme kutusu, radyo düğmeleri, onay kutuları, metin "
+"ve metin alanı türleri için etkinleştirilir. Özniteliğin önceden tanımlanmış "
+"değerleri olduğunda, karşılaştırma için bu değerlerin kimlikleri kullanılır, "
+"aksi takdirde alan değeri kullanılır. Yalnızca sayısal değerlere sahip "
+"alanlar için önerilir, ancak eklenti dizeleri de tam sayılara dönüştürür "
+"(yani 5 koltuk 5 numaraya dönüştürülür). Her neyse, string değerleri için "
+"çalışıyor, sadece sayısal değerler için doğru işlevselliği garanti ediyoruz."
+
+#: admin/edit.php:284
+msgid ""
+"When enabled, on publish page for checkbox type of attribute it is possible "
+"to select one and only one value (same as radion button)."
+msgstr ""
+"Etkinleştirildiğinde, nitelik onay kutusu türü için yayınlama sayfasında "
+"yalnızca bir ve yalnızca bir değer (radyon düğmesiyle aynı) seçmek mümkündür."
+
+#: admin/edit.php:285
+msgid ""
+"If listing must match to all selected values, only those listings that "
+"really have all values selected (during publish) will be shown in search. If "
+"any of selected values is activated, any listing that match at least to one "
+"selected value will be shown in search."
+msgstr ""
+"Listelemenin seçilen tüm değerlerle eşleşmesi gerekiyorsa, yalnızca tüm "
+"değerleri gerçekten seçilmiş olan listeler (yayınlanma sırasında) aramada "
+"gösterilecektir. Seçilen değerlerden herhangi biri etkinleştirilirse, en az "
+"bir seçilen değerle eşleşen herhangi bir liste aramada gösterilecektir."
+
+#: admin/edit.php:286
+msgid ""
+"Select if all attribute values are shown or search OR only values those were "
+"selected on at least 1 listing will be shown."
+msgstr ""
+"Tüm öznitelik değerlerinin gösterilip gösterilmeyeceğini seçin veya arama "
+"yapın VEYA yalnızca en az 1 listelemede seçilen değerler gösterilecektir."
+
+#: admin/edit.php:288
+msgid ""
+"Values Images - you can define whole link to image or reference to icons "
+"delivered with plugin located in folder /img/default. To use one of these "
+"icons, you do not need to write full path, only start on default foder, "
+"plugin recognize it. Example: default/cars/engine.png"
+msgstr ""
+"Değerler Görüntüler - /img/default klasöründe bulunan eklenti ile sağlanan "
+"görüntüye tüm bağlantıyı veya simgelere referans tanımlayabilirsiniz. Bu "
+"simgelerden birini kullanmak için tam yol yazmanıza gerek yoktur, yalnızca "
+"varsayılan yemle başlayın, eklenti onu tanır. Örnek: default/cars/engine.png"
+
+#: admin/edit.php:289
+msgid ""
+"Plugin comes with hundreds of icons that can be used for values and found in "
+"folder:"
+msgstr ""
+"Eklenti, değerler için kullanılabilen ve klasörde bulunan yüzlerce simgeyle "
+"birlikte gelir:"
+
+#: functions.php:53
+msgid "Min."
+msgstr "Min."
+
+#: functions.php:55
+msgid "Max."
+msgstr "Maks."
+
+#: functions.php:76 functions.php:115 functions.php:134 functions.php:167
+#, php-format
+msgid "Select %s ..."
+msgstr "%s seçin..."
+
+#: functions.php:76 functions.php:97 functions.php:115 functions.php:134
+#: functions.php:167 functions.php:867 functions.php:884 functions.php:897
+#: functions.php:1120
+msgid "Select value ..."
+msgstr "Değeri seç ..."
+
+#: functions.php:176 functions.php:921
+msgid "Select all"
+msgstr "Hepsini seç"
+
+#: functions.php:177 functions.php:922
+msgid "Deselect all"
+msgstr "Hiçbirini seçme"
+
+#: functions.php:513
+msgid "to"
+msgstr "ile"
+
+#: functions.php:581
+msgid "- no selection - "
+msgstr "- seçim yok -"
+
+#: functions.php:809 functions.php:814
+#, php-format
+msgid "You have not filled required field: %s"
+msgstr "Zorunlu alanı doldurmadınız: %s"
+
+#: functions.php:1255
+msgid "Value"
+msgstr "Değer"
+
+#: functions.php:1256
+msgid "Icon link"
+msgstr "Simge bağlantısı"
+
+#: functions.php:1257
+msgid "Remove"
+msgstr "Kaldır"
+
+#: index.php:97
+msgid "Report Bug"
+msgstr "Hata Bildir"
+
+#: index.php:98
+msgid "Support Forums"
+msgstr "Destek Forumları"
+
+#: index.php:99
+msgid "Contact Us"
+msgstr "Bize Ulaşın"
+
+#: user/required.php:11
+msgid "Field ID:"
+msgstr "Alan ID:"
+
+#: user/required.php:20
+msgid "(Start)"
+msgstr "(Başla)"
+
+#: user/required.php:21
+msgid "(End)"
+msgstr "(Son)"
+
+#: user/required.php:61
+msgid "Select at least one option on field"
+msgstr "Sahada en az bir seçenek belirleyin"
+
+#: user/required.php:80
+#, php-format
+msgid "Required field: %s"
+msgstr "Zorunlu Alanlar: %s"

@@ -1,0 +1,581 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Make Offer Plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-11-04 08:20+0100\n"
+"PO-Revision-Date: 2022-03-16 11:30+0300\n"
+"Last-Translator: Miso <miso546@azet.sk>\n"
+"Language-Team: MB Themes <info@mb-themes.com>\n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-KeywordsList: __;_e;_m\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: languages/en_US\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: admin/configure.php:3 admin/configure.php:42 index.php:305 index.php:314
+#: index.php:345
+msgid " Average rating"
+msgstr " Toplam Değerlendirme"
+
+msgid "Offer"
+msgstr "Teklif"
+
+msgid " Rate this user"
+msgstr " Kullanıcıyı Değerlendir"
+
+msgid "Configure"
+msgstr "Yapılandır"
+
+msgid "Reserve"
+msgstr "Kapora Alındı"
+
+#: admin/configure.php:29
+msgid "Settings were successfully saved"
+msgstr "Ayarlar başarıyla kaydedildi"
+
+#: admin/configure.php:54
+msgid "Require validation"
+msgstr "Doğrulama gerektir"
+
+#: admin/configure.php:57
+msgid "Each offer must be validated by admin before it is shown."
+msgstr "Her teklif, gösterilmeden önce yönetici tarafından doğrulanmalıdır."
+
+#: admin/configure.php:61
+msgid "Only logged users"
+msgstr "Yalnızca oturum açmış kullanıcılar"
+
+#: admin/configure.php:64
+msgid "When enabled, only logged in users can make new offer."
+msgstr "Etkinleştirildiğinde, yalnızca oturum açmış kullanıcılar yeni teklif verebilir."
+
+#: admin/configure.php:68
+msgid "Show status"
+msgstr "Durumu göster"
+
+#: admin/configure.php:71
+msgid "When enabled, seller's respond status is shown to other users in offer list."
+msgstr "Etkinleştirildiğinde, satıcının yanıt durumu, teklif listesindeki diğer kullanıcılara gösterilir."
+
+#: admin/configure.php:75
+msgid "Show quantity"
+msgstr "Miktarı göster"
+
+#: admin/configure.php:78
+msgid "Enable to set quantity into offer."
+msgstr "Teklife miktarı ayarlamak için etkinleştirin."
+
+#: admin/configure.php:82
+msgid "Add offer button to price"
+msgstr "Fiyata teklif düğmesi ekle"
+
+#: admin/configure.php:85
+msgid "When enabled, link to create/show offers is added directly to price."
+msgstr "Etkinleştirildiğinde, teklif oluşturma/gösterme bağlantısı doğrudan fiyata eklenir."
+
+#: admin/configure.php:89
+msgid "Auto-hook offer button"
+msgstr "Teklifi otomatik kancaya al düğmesi"
+
+#: admin/configure.php:92
+msgid "When enabled, link to create/show new offer added to hook item_detail and visible on listing page."
+msgstr "Etkinleştirildiğinde, item_detail kancasına eklenen ve listeleme sayfasında görünen yeni teklif oluşturma/gösterme bağlantısı."
+
+#: admin/configure.php:96
+msgid "Notify seller"
+msgstr "satıcıya bildir"
+
+#: admin/configure.php:99
+msgid "When enabled, notification email is send to seller when there is new offer."
+msgstr "Etkinleştirildiğinde, yeni teklif olduğunda satıcıya bildirim e-postası gönderilir."
+
+#: admin/configure.php:103
+msgid "Enable on existing items"
+msgstr "Mevcut öğelerde etkinleştir"
+
+#: admin/configure.php:106
+msgid "When enabled, make offer button is available on existing listings created before plugin installation."
+msgstr "Etkinleştirildiğinde, eklenti kurulumundan önce oluşturulan mevcut listelerde teklif yap düğmesi kullanılabilir."
+
+#: admin/configure.php:110
+msgid "Connect to Messenger"
+msgstr "Messenger'a bağlan"
+
+#: admin/configure.php:113
+msgid "When enabled and new offer is made, message will come to instant messenger instead of user email. Require Instant Messenger Plugin to be installed."
+msgstr "Etkinleştirildiğinde ve yeni teklif yapıldığında, kullanıcı e-postası yerine anlık iletiye mesaj gelecektir. Instant Messenger Plugin'in yüklenmesini gerektir."
+
+#: admin/configure.php:118
+msgid "Category"
+msgstr "Kategori"
+
+#: admin/configure.php:125
+msgid "If no category is selected, \"make offer\" is enabled in all categories."
+msgstr "Herhangi bir kategori seçilmezse tüm kategorilerde \"teklif yap\" aktif edilir."
+
+#: admin/configure.php:129
+msgid "Styled checkboxes"
+msgstr "Tarz onay kutuları"
+
+#: admin/configure.php:132
+msgid "When enabled, on plugin checkboxes are applied CSS styles to format them. Otherwise checkboxes are raw."
+msgstr "Etkinleştirildiğinde, eklenti onay kutularına biçimlendirmek için CSS stilleri uygulanır. Aksi takdirde onay kutuları hamdır."
+
+#: admin/configure.php:137
+msgid "Save"
+msgstr "Kaydet"
+
+#: admin/configure.php:139
+msgid "Save (demo - disabled)"
+msgstr "Kaydet(demo-pasif)"
+
+#: admin/configure.php:151
+msgid "Plugin Setup"
+msgstr "Eklenti Kurulumu"
+
+#: admin/configure.php:154
+msgid "No theme modification are required to use all functions of plugin, but you may want to customize positions of buttons"
+msgstr "Eklentinin tüm işlevlerini kullanmak için herhangi bir tema değişikliği gerekmez, ancak düğmelerin konumlarını özelleştirmek isteyebilirsiniz."
+
+#: admin/configure.php:157
+msgid "To add button to show list of offers with count of active offers, place following code to theme files"
+msgstr "Etkin tekliflerin sayısıyla birlikte tekliflerin listesini göstermek için düğme eklemek için aşağıdaki kodu tema dosyalarına yerleştirin"
+
+#: admin/configure.php:162
+msgid "To add button to create a new offer, place following code to theme files"
+msgstr "Yeni bir teklif oluşturma düğmesi eklemek için aşağıdaki kodu tema dosyalarına yerleştirin"
+
+#: admin/configure.php:167
+msgid "To add button to create/show offers (legacy button), place following code to theme files"
+msgstr "Teklifleri oluşturmak/göstermek için düğme eklemek için (eski düğme), tema dosyalarına aşağıdaki kodu yerleştirin"
+
+#: admin/configure.php:172
+msgid "To get raw link to see list of offers, use following code"
+msgstr "Tekliflerin listesini görmek için ham bağlantı almak için aşağıdaki kodu kullanın"
+
+#: admin/configure.php:176
+msgid "This codes can be put anywhere osc_item() is available (item loop, item page, user items, ...)."
+msgstr "Bu kodlar, osc_item()'in mevcut olduğu herhangi bir yere yerleştirilebilir (ürün döngüsü, öğe sayfası, kullanıcı öğeleri, ...)."
+
+#: admin/configure.php:185
+msgid "Help"
+msgstr "Yardım"
+
+#: admin/configure.php:188
+msgid "When enabled, each offer must be validated by admin before it is shown to seller."
+msgstr "Etkinleştirildiğinde, her teklif satıcıya gösterilmeden önce yönetici tarafından doğrulanmalıdır."
+
+#: admin/configure.php:189
+msgid "When enabled, only logged in users can create new offer."
+msgstr "Etkinleştirildiğinde, yalnızca oturum açmış kullanıcılar yeni teklif oluşturabilir."
+
+#: admin/configure.php:190
+msgid "When enabled, respond status of seller is shown in front in list of all offers."
+msgstr "Etkinleştirildiğinde, satıcının yanıt durumu tüm teklifler listesinin önünde gösterilir."
+
+#: admin/configure.php:191
+msgid "When enabled, quantity can be specified in offer."
+msgstr "Etkinleştirildiğinde, teklifte miktar belirtilebilir."
+
+#: admin/configure.php:192
+msgid "When enabled, link to create/show offers is added directly to price field on listing page. No theme modifications are required then."
+msgstr "Etkinleştirildiğinde, teklif oluşturma/gösterme bağlantısı doğrudan listeleme sayfasındaki fiyat alanına eklenir. O zaman hiçbir tema değişikliği gerekmez."
+
+#: admin/configure.php:193
+msgid "When enabled, link to create/show offers is added to hook item_detail on listing page. No theme modifications are required then."
+msgstr "Etkinleştirildiğinde, listeleme sayfasındaki item_detail kancasına teklif oluşturma/gösterme bağlantısı eklenir. O zaman hiçbir tema değişikliği gerekmez."
+
+#: admin/configure.php:194
+msgid "When enabled, seller is notified by email about new offer on it's listing."
+msgstr "Etkinleştirildiğinde, satıcı, listesindeki yeni teklif hakkında e-posta ile bilgilendirilir."
+
+#: admin/configure.php:195 admin/configure.php:198
+msgid "Select categories where \"Make Offer\" function is available. If no category is selected, make offer is enabled in all categories."
+msgstr "\"Teklif Yap\" fonksiyonunun mevcut olduğu kategorileri seçin. Herhangi bir kategori seçilmezse tüm kategorilerde teklif yap etkinleştirilir."
+
+#: admin/configure.php:196
+msgid "When enabled, make offer button is available on listings that has been created before plugin installation (no selection of make offer option)."
+msgstr "Etkinleştirildiğinde, eklenti kurulumundan önce oluşturulan listelerde teklif yap düğmesi kullanılabilir (teklif yapma seçeneği seçimi yok)."
+
+#: admin/configure.php:197
+msgid "When enabled and new offer is created, email will not be sent, rather then instant message is sent to user and communication can continue via messenger."
+msgstr "Etkinleştirildiğinde ve yeni teklif oluşturulduğunda e-posta gönderilmez, bunun yerine kullanıcıya anlık mesaj gönderilir ve iletişim messenger üzerinden devam edebilir."
+
+#: admin/configure.php:199
+msgid "Make offer button will be shown on listing just in case price is not set to Free."
+msgstr "Fiyatın Ücretsiz olarak ayarlanmaması durumunda teklif yap düğmesi ilanda gösterilecektir."
+
+#: admin/offers.php:3 index.php:88 index.php:90 index.php:315 index.php:346
+msgid "Offers"
+msgstr "Teklifler"
+
+#: admin/offers.php:21 admin/offers.php:73
+msgid "Offers(s) with following IDs were approved:"
+msgstr "Aşağıdaki kimliklere sahip teklifler onaylandı:"
+
+#: admin/offers.php:43
+msgid "Offer(s) with following IDs were removed:"
+msgstr "Aşağıdaki kimliklere sahip teklifler kaldırıldı:"
+
+#: admin/offers.php:52 admin/offers.php:187
+msgid "Approve Selected"
+msgstr "Seçilenleri Onayla"
+
+#: admin/offers.php:79 admin/offers.php:188 admin/offers.php:310
+msgid "Remove Selected"
+msgstr "Seçilenleri Kaldır"
+
+#: admin/offers.php:95
+msgid "Offers(s) with following IDs were removed:"
+msgstr "Aşağıdaki kimliklere sahip teklifler kaldırıldı:"
+
+#: admin/offers.php:107
+msgid "Offers to be Validated"
+msgstr "Onaylanacak Teklifler"
+
+#: admin/offers.php:122 admin/offers.php:220
+msgid "Only latest 100 offers are shown!"
+msgstr "Sadece en son 100 teklif gösteriliyor!"
+
+#: admin/offers.php:128 admin/offers.php:226
+msgid "ID"
+msgstr "ID"
+
+#: admin/offers.php:129 admin/offers.php:227
+msgid "Item"
+msgstr "İlan"
+
+#: admin/offers.php:130 admin/offers.php:228 email.php:48 email.php:115
+msgid "User"
+msgstr "Kullanıcı"
+
+#: admin/offers.php:131 admin/offers.php:229
+msgid "Qty"
+msgstr "Miktar"
+
+#: admin/offers.php:132 admin/offers.php:230
+msgid "Offer Price"
+msgstr "Teklif Fiyatı"
+
+#: admin/offers.php:132 admin/offers.php:230
+msgid "Original"
+msgstr "Orijinal"
+
+#: admin/offers.php:133 admin/offers.php:231 email.php:51 email.php:118
+#: user/user_offers.php:96
+msgid "Comment"
+msgstr "Yorum"
+
+#: admin/offers.php:134 admin/offers.php:232
+msgid "Validate"
+msgstr "Doğrula"
+
+#: admin/offers.php:146 admin/offers.php:246 admin/offers.php:271
+#: functions.php:45 functions.php:152 user/user_offers.php:199
+msgid "Pending"
+msgstr "Beklemede"
+
+#: admin/offers.php:149 admin/offers.php:249 admin/offers.php:253
+#: functions.php:16
+msgid "Valid"
+msgstr "Geçerli"
+
+#: admin/offers.php:153 admin/offers.php:276
+msgid "No comment"
+msgstr "Yorum yok"
+
+#: admin/offers.php:158 admin/offers.php:281 user/offer.php:136
+msgid "Email"
+msgstr "E-Posta"
+
+#: admin/offers.php:158 admin/offers.php:281 user/offer.php:144
+msgid "Phone"
+msgstr "Telefon"
+
+#: admin/offers.php:179
+msgid "Approve"
+msgstr "Onaylamak"
+
+#: admin/offers.php:180 admin/offers.php:303
+msgid "Remove"
+msgstr "Kaldırmak"
+
+#: admin/offers.php:180 admin/offers.php:303
+msgid "Are you sure you want to remove this offer? Action cannot be undone"
+msgstr "Bu teklifi kaldırmak istediğinizden emin misiniz? İşlem geri alınamaz"
+
+#: admin/offers.php:188 admin/offers.php:310
+msgid "Are you sure you want to remove selected offers? Action cannot be undone"
+msgstr "Seçili teklifleri kaldırmak istediğinizden emin misiniz? İşlem geri alınamaz"
+
+#: admin/offers.php:193
+msgid "No offers waiting for validation"
+msgstr "Doğrulama için bekleyen teklif yok"
+
+#: admin/offers.php:205
+msgid "Validated Offers"
+msgstr "Doğrulanmış Teklifler"
+
+#: admin/offers.php:233
+msgid "Accepted?"
+msgstr "Kabul edilmiş?"
+
+#: admin/offers.php:263 functions.php:41 functions.php:144
+#: user/user_offers.php:116 user/user_offers.php:203 user/user_offers.php:227
+msgid "Accepted"
+msgstr "Kabul edilmiş"
+
+#: admin/offers.php:267 functions.php:43 functions.php:148
+#: user/user_offers.php:120 user/user_offers.php:207 user/user_offers.php:233
+msgid "Declined"
+msgstr "Reddedildi"
+
+#: admin/offers.php:315
+msgid "No validated offers yet"
+msgstr "Henüz onaylanmış teklif yok"
+
+#: email.php:2
+msgid "Name of user that will receive email notification"
+msgstr "E-posta bildirimi alacak kullanıcının adı"
+
+#: email.php:3
+msgid "Name of user that has send offer"
+msgstr "Teklif gönderen kullanıcının adı"
+
+#: email.php:4
+msgid "Link to listing"
+msgstr "İlan bağlantısı"
+
+#: email.php:5
+msgid "Offer details (price, quantity)"
+msgstr "Teklif ayrıntıları (fiyat, miktar)"
+
+#: email.php:6
+msgid "Link to offer"
+msgstr "Teklif için bağlantı"
+
+#: email.php:44 email.php:111 user/offer.php:104
+msgid "Quantity"
+msgstr "Quantity"
+
+#: email.php:47 email.php:114 user/offer.php:110
+msgid "Price"
+msgstr "Fiyat"
+
+#: email.php:53
+msgid "Respond"
+msgstr "Cevap vermek"
+
+#: functions.php:18
+msgid "Pending admin validation"
+msgstr "Yönetici doğrulaması bekleniyor"
+
+#: functions.php:125 user/user_offers.php:91 user/user_offers.php:182
+#, php-format
+msgid "Qty: %dx"
+msgstr "Miktar: %dx"
+
+#: functions.php:137 user/user_offers.php:86
+#, php-format
+msgid "%s on %s"
+msgstr "%s üzerinde %s"
+
+#: functions.php:143 user/user_offers.php:202
+msgid "Seller has accepted this offer"
+msgstr "Satıcı bu teklifi kabul etti"
+
+#: functions.php:147 user/user_offers.php:206
+msgid "Seller has declined this offer"
+msgstr "Satıcı bu teklifi reddetti"
+
+#: functions.php:151 user/user_offers.php:198
+msgid "Seller has not yet responded to this offer"
+msgstr "Satıcı henüz bu teklife yanıt vermedi"
+
+#: functions.php:184 functions.php:193
+msgid "Make offer"
+msgstr "Teklif yap"
+
+#: functions.php:193
+msgid "Create good deal"
+msgstr "İyi bir anlaşma oluşturun"
+
+#: functions.php:208
+#, php-format
+msgid "%s Offer"
+msgstr "%s Teklif"
+
+#: functions.php:208
+#, php-format
+msgid "%s Offers"
+msgstr "%s Teklif"
+
+#: functions.php:220 user/offer.php:65 user/offer.php:96
+msgid "Submit a new offer"
+msgstr "Yeni bir teklif gönderin"
+
+#: index.php:28
+msgid "My offers"
+msgstr "Tekliflerim"
+
+#: index.php:138
+msgid "Price: This field is required."
+msgstr "Fiyat: Bu alan zorunludur."
+
+#: index.php:138
+msgid "Name: This field is required."
+msgstr "Ad: Bu alan zorunludur."
+
+#: index.php:138
+msgid "Name: Name is too short."
+msgstr "Ad: Ad çok kısa."
+
+#: index.php:138
+msgid "Email: This field is required."
+msgstr "E-posta: Bu alan zorunludur."
+
+#: index.php:138
+msgid "Email: Not valid email format."
+msgstr "E-posta: Geçerli e-posta biçimi değil."
+
+#: index.php:138 user/user_offers.php:111
+msgid "Your reply"
+msgstr "Cevabınızı"
+
+#: index.php:173
+#, php-format
+msgid "New offer on %s - %s"
+msgstr "%s - %s için yeni teklif"
+
+#: index.php:330
+msgid "Report Bug"
+msgstr "Hata Bildir"
+
+#: index.php:331
+msgid "Support Forums"
+msgstr "Destek Forumları"
+
+#: index.php:332
+msgid "Contact Us"
+msgstr "Bize Ulaşın"
+
+#: user/item_post_edit.php:22
+msgid "Enable buyers to \"make offer\" on this item"
+msgstr "Alıcıların bu ürün için \"teklif vermesini\" etkinleştir"
+
+#: user/offer.php:29
+#, php-format
+msgid "%d offer"
+msgstr "%d teklif"
+
+#: user/offer.php:29
+#, php-format
+msgid "%d offers"
+msgstr "%d teklif"
+
+#: user/offer.php:34
+msgid "Listing has not been found"
+msgstr "İlan bulunamadı"
+
+#: user/offer.php:45 user/user_offers.php:78 user/user_offers.php:169
+msgid "Anonymous"
+msgstr "Anonim"
+
+#: user/offer.php:56
+msgid "No offers has been submitted yet"
+msgstr "Henüz teklif gönderilmedi"
+
+#: user/offer.php:76
+msgid "This is your own listing, you cannot make offer to yourself."
+msgstr "Bu sizin kendi ilanınızdır, kendinize teklifte bulunamazsınız."
+
+#: user/offer.php:83
+msgid "You have already submitted offer that was not checked by seller or was already approved by seller."
+msgstr "Satıcı tarafından kontrol edilmeyen veya satıcı tarafından zaten onaylanmış bir teklif gönderdiniz."
+
+#: user/offer.php:120
+msgid "per piece"
+msgstr "parça başına"
+
+#: user/offer.php:128
+msgid "Your name"
+msgstr "Adınız"
+
+#: user/offer.php:151
+msgid "Comment to your offer"
+msgstr "Teklifinize yorum yapın"
+
+#: user/offer.php:156
+msgid "Submit"
+msgstr "Gönder"
+
+#: user/offer.php:164
+msgid "Your offer has been successfully submitted!"
+msgstr "Teklifiniz başarıyla gönderildi!"
+
+#: user/offer.php:167
+msgid "Offer will be sent to seller once it is validated by our team."
+msgstr "Teklif, ekibimiz tarafından onaylandıktan sonra satıcıya gönderilecektir."
+
+#: user/offer.php:175
+msgid "Whooops, there was some error, you offer has not been submitted."
+msgstr "Hata, bir hata oluştu, teklifiniz gönderilmedi."
+
+#: user/offer.php:183
+msgid "Only logged in users can submit a new offer."
+msgstr "Yalnızca oturum açmış kullanıcılar yeni bir teklif gönderebilir."
+
+#: user/user_offers.php:22
+msgid "Offers on your items"
+msgstr "İlanınızdaki teklifler"
+
+#: user/user_offers.php:23
+msgid "Offers placed by you"
+msgstr "Sizin tarafınızdan verilen teklifler"
+
+#: user/user_offers.php:104
+msgid "Write your comment here"
+msgstr "Yorumunuzu buraya yazın"
+
+#: user/user_offers.php:105
+msgid "Accept"
+msgstr "Kabul"
+
+#: user/user_offers.php:106
+msgid "Decline"
+msgstr "Reddet"
+
+#: user/user_offers.php:115 user/user_offers.php:226
+msgid "You had accepted this offer"
+msgstr "Bu teklifi kabul etmiştin"
+
+#: user/user_offers.php:119 user/user_offers.php:232
+msgid "You had declined this offer"
+msgstr "Bu teklifi reddetmiştin"
+
+#: user/user_offers.php:134
+msgid "There are no offers on your items yet"
+msgstr "Henüz ilanınızda teklif yok"
+
+#: user/user_offers.php:177
+#, php-format
+msgid "%s's item on %s"
+msgstr ""
+
+#: user/user_offers.php:188
+msgid "Your comment"
+msgstr "Senin yorumun"
+
+#: user/user_offers.php:193
+msgid "Seller's reply"
+msgstr "Satıcının cevabı"
+
+#: user/user_offers.php:217
+msgid "You have not placed any offers yet"
+msgstr "Henüz teklif vermediniz"

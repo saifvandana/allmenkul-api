@@ -1,0 +1,1458 @@
+# Copyright (C) 2017 Osclass
+# This file is distributed under the same license as the {package-name} package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Osclass by OsclassPoint.com\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-11-04 14:10+0100\n"
+"PO-Revision-Date: 2021-12-03 20:43+0300\n"
+"Last-Translator: Translations <translations@osclass>\n"
+"Language-Team: Casper osclassar@gmail.com\n"
+"Language: ar_SA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-KeywordsList: ;__;_e\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: oc-includes/osclass/gui\n"
+"X-Poedit-SearchPath-1: oc-content/themes/sigma\n"
+
+#: oc-content/themes/sigma/404.php:27
+msgid "404"
+msgstr ""
+
+#: oc-content/themes/sigma/404.php:28
+msgid "OOPS! Page Not Found!"
+msgstr "خطأ ! الصفحة غير موجودة!"
+
+#: oc-content/themes/sigma/404.php:29
+msgid "Either something get wrong or the page doesn't exist anymore."
+msgstr "إما حدث خطأ ما أو أن الصفحة لم تعد موجودة."
+
+#: oc-content/themes/sigma/404.php:31
+msgid "Take me home"
+msgstr "خذنى إلى الرئيسية"
+
+#: oc-content/themes/sigma/admin/header.php:27
+#: oc-content/themes/sigma/functions.php:606
+#: oc-includes/osclass/gui/admin/header.php:27
+#: oc-includes/osclass/gui/functions.php:615
+msgid "Header logo"
+msgstr "شعار الهيدر"
+
+#: oc-content/themes/sigma/admin/header.php:33
+#: oc-includes/osclass/gui/admin/header.php:33
+msgid "Preview"
+msgstr "معاينة"
+
+#: oc-content/themes/sigma/admin/header.php:40
+#: oc-includes/osclass/gui/admin/header.php:41
+msgid "Remove logo"
+msgstr "إزالة الشعار"
+
+#: oc-content/themes/sigma/admin/header.php:47
+#: oc-includes/osclass/gui/admin/header.php:48
+msgid "No logo has been uploaded yet"
+msgstr "لم يتم تحميل أي شعار حتى الآن"
+
+#: oc-content/themes/sigma/admin/header.php:50
+#: oc-includes/osclass/gui/admin/header.php:52
+msgid "Upload logo"
+msgstr "تحميل شعار"
+
+#: oc-content/themes/sigma/admin/header.php:51
+#: oc-includes/osclass/gui/admin/header.php:53
+msgid "The preferred size of the logo is 600x100."
+msgstr "الحجم المفضل للشعار هو 600×100."
+
+#: oc-content/themes/sigma/admin/header.php:53
+#: oc-includes/osclass/gui/admin/header.php:56
+msgid ""
+"<strong>Note:</strong> Uploading another logo will overwrite the current "
+"logo."
+msgstr "<strong>ملاحظة:</strong> رفع شعار اخر سيزيل الشعار الحالي."
+
+#: oc-content/themes/sigma/admin/header.php:61
+#: oc-includes/osclass/gui/admin/header.php:66
+msgid "Logo image (png,gif,jpg)"
+msgstr "صورة الشعار (png,gif,jp)"
+
+#: oc-content/themes/sigma/admin/header.php:67
+#: oc-includes/osclass/gui/admin/header.php:73
+msgid "Upload"
+msgstr "ارفع"
+
+#: oc-content/themes/sigma/admin/header.php:76
+#: oc-includes/osclass/gui/admin/header.php:82
+#, php-format
+msgid "The images folder <strong>%s</strong> is not writable on your server"
+msgstr "مجلد الصور <strong>%s</strong> غير قابل للكتابة على الخادم الخاص بك"
+
+#: oc-content/themes/sigma/admin/header.php:77
+#: oc-includes/osclass/gui/admin/header.php:83
+msgid "Osclass can't upload the logo image from the administration panel."
+msgstr "لا يمكن لـ Osclass رفع صورة الشعار من لوحة الادارة."
+
+#: oc-content/themes/sigma/admin/header.php:78
+#: oc-includes/osclass/gui/admin/header.php:84
+msgid "Please make the aforementioned image folder writable."
+msgstr "الرجاء جعل مجلد الصور المذكور آنفا قابل للكتابة."
+
+#: oc-content/themes/sigma/admin/header.php:83
+#: oc-includes/osclass/gui/admin/header.php:90
+msgid ""
+"To make a directory writable under UNIX execute this command from the shell:"
+msgstr "لجعل الدليل قابل للكتابة في UNIX نفذ هذا الامر من موجه الاوامر:"
+
+#: oc-content/themes/sigma/admin/settings.php:34
+#: oc-includes/osclass/gui/admin/settings.php:37
+msgid ""
+"I would like to contribute to the development of Osclass with a donation of"
+msgstr "وأود أن أسهم في تطوير Osclass بتبرع بمبلغ"
+
+#: oc-content/themes/sigma/admin/settings.php:39
+#: oc-includes/osclass/gui/admin/settings.php:42
+msgid "Custom"
+msgstr "خصص"
+
+#: oc-content/themes/sigma/admin/settings.php:40
+#: oc-includes/osclass/gui/admin/settings.php:43
+msgid "Donate"
+msgstr "تبرع"
+
+#: oc-content/themes/sigma/admin/settings.php:44
+#: oc-content/themes/sigma/functions.php:607
+#: oc-includes/osclass/gui/admin/settings.php:47
+#: oc-includes/osclass/gui/functions.php:616
+msgid "Theme settings"
+msgstr "أعدادات القالب"
+
+#: oc-content/themes/sigma/admin/settings.php:50
+#: oc-includes/osclass/gui/admin/settings.php:53
+msgid "Search placeholder"
+msgstr "نائب كلمات البحث"
+
+#: oc-content/themes/sigma/admin/settings.php:54
+#: oc-includes/osclass/gui/admin/settings.php:57
+msgid "Show lists as:"
+msgstr "اضهار الاعلانات على النحو التالي:"
+
+#: oc-content/themes/sigma/admin/settings.php:57
+#: oc-includes/osclass/gui/admin/settings.php:60
+msgid "Gallery"
+msgstr "معرض"
+
+#: oc-content/themes/sigma/admin/settings.php:58
+#: oc-includes/osclass/gui/admin/settings.php:61
+#: oc-includes/osclass/gui/main.php:45 oc-includes/osclass/gui/search.php:83
+msgid "List"
+msgstr "قائمة"
+
+#: oc-content/themes/sigma/admin/settings.php:64
+#: oc-includes/osclass/gui/admin/settings.php:67
+msgid "Footer link"
+msgstr "رابط التذييل"
+
+#: oc-content/themes/sigma/admin/settings.php:66
+#: oc-includes/osclass/gui/admin/settings.php:69
+msgid ""
+"I want to help Osclass by linking to <a href=\"https://osclass-classifieds."
+"com/\" target=\"_blank\">osclass</a> from my site with the following text:"
+msgstr ""
+"أرغب في مساعدة Osclass بالربط بـ <a href=\"https://osclass-classifieds.com/"
+"\" target=\"_blank\"> osclass </a> من موقعي بالنص التالي:"
+
+#: oc-content/themes/sigma/admin/settings.php:67
+#: oc-includes/osclass/gui/admin/settings.php:70
+msgid ""
+"This website is proudly using the <a title=\"Osclass web\" href=\"https://"
+"osclass-classifieds.com/\">classifieds scripts</a> software <strong>Osclass</"
+"strong>"
+msgstr ""
+"يستخدم موقع الويب هذا بفخر برنامج <a title=\"Osclass web\" href=\"https://"
+"osclass-classifieds.com/\"> البرامج النصية للإعلانات المبوبة </a> <strong> "
+"Osclass </strong>"
+
+#: oc-content/themes/sigma/admin/settings.php:76
+msgid "Right-To-Left (RTL)"
+msgstr "من اليمين إلى اليسار - رتل"
+
+#: oc-content/themes/sigma/admin/settings.php:80
+msgid "Enable Right-To-Left"
+msgstr "من اليمين إلى اليسار - رتل"
+
+#: oc-content/themes/sigma/admin/settings.php:83
+msgid "enable/disable"
+msgstr "قم بتفعيل هذا الخيار لأتجاه اللغة العربية"
+
+#: oc-content/themes/sigma/admin/settings.php:91
+#: oc-includes/osclass/gui/admin/settings.php:77
+msgid "Location input"
+msgstr "أدخال الموقع"
+
+#: oc-content/themes/sigma/admin/settings.php:95
+#: oc-includes/osclass/gui/admin/settings.php:81
+msgid "Show location input as:"
+msgstr "أدخال الموقع:"
+
+#: oc-content/themes/sigma/admin/settings.php:98
+#: oc-includes/osclass/gui/admin/settings.php:84
+msgid "Dropdown"
+msgstr "اسقاط"
+
+#: oc-content/themes/sigma/admin/settings.php:99
+#: oc-includes/osclass/gui/admin/settings.php:85
+msgid "Autocomplete"
+msgstr "الإكمال التلقائي"
+
+#: oc-content/themes/sigma/admin/settings.php:106
+#: oc-includes/osclass/gui/admin/settings.php:92
+msgid "Ads management"
+msgstr "إدارة الإعلانات"
+
+#: oc-content/themes/sigma/admin/settings.php:110
+#: oc-includes/osclass/gui/admin/settings.php:96
+msgid ""
+"In this section you can configure your site to display ads and start "
+"generating revenue."
+msgstr ""
+"في هذا القسم، يمكنك تهيئة موقعك لعرض الإعلانات والبدء في تحقيق الأرباح.إذا "
+"كنت تستخدم نظاما إعلانيا عبر الإنترنت، مثلغوغل أدسنز، فانسخ والصق هنا الرمز "
+"المقدم للإعلانات."
+
+#: oc-content/themes/sigma/admin/settings.php:110
+#: oc-includes/osclass/gui/admin/settings.php:96
+msgid ""
+"If you are using an online advertising platform, such as Google Adsense, "
+"copy and paste here the provided code for ads."
+msgstr ""
+"إذا كنت تستخدم منصة إعلانية عبر الإنترنت ، مثل Google Adsense ، انسخ والصق "
+"الشفرة المتوفرة للإعلانات هنا."
+
+#: oc-content/themes/sigma/admin/settings.php:116
+#: oc-includes/osclass/gui/admin/settings.php:102
+msgid "Header 728x90"
+msgstr "الهيدر 728x90"
+
+#: oc-content/themes/sigma/admin/settings.php:120
+#: oc-includes/osclass/gui/admin/settings.php:106
+msgid ""
+"This ad will be shown at the top of your website, next to the site title and "
+"above the search results. Note that the size of the ad has to be 728x90 "
+"pixels."
+msgstr ""
+"سيتم عرض هذا الإعلان في الجزء العلوي من موقع الويب الخاص بك ، بجانب عنوان "
+"الموقع وفوق نتائج البحث. لاحظ أن حجم الإعلان يجب أن يكون 728 × 90 بكسل."
+
+#: oc-content/themes/sigma/admin/settings.php:124
+#: oc-includes/osclass/gui/admin/settings.php:110
+msgid "Homepage 728x90"
+msgstr "الصفحة الرئيسية 728x90"
+
+#: oc-content/themes/sigma/admin/settings.php:128
+#: oc-includes/osclass/gui/admin/settings.php:114
+msgid ""
+"This ad will be shown on the main site of your website. It will appear both "
+"at the top and bottom of your site homepage. Note that the size of the ad "
+"has to be 728x90 pixels."
+msgstr ""
+"سيتم عرض هذا الإعلان على الموقع الرئيسي لموقع الويب الخاص بك. سوف يظهر في "
+"أعلى وأسفل الصفحة الرئيسية لموقعك. لاحظ أن حجم الإعلان يجب أن يكون 728 × 90 "
+"بكسل."
+
+#: oc-content/themes/sigma/admin/settings.php:132
+#: oc-includes/osclass/gui/admin/settings.php:118
+msgid "Search results 728x90 (top of the page)"
+msgstr "نتائج البحث 728 × 90 (أعلى الصفحة)"
+
+#: oc-content/themes/sigma/admin/settings.php:136
+#: oc-includes/osclass/gui/admin/settings.php:122
+msgid ""
+"This ad will be shown on top of the search results of your site. Note that "
+"the size of the ad has to be 728x90 pixels."
+msgstr ""
+"سيتم عرض هذا الإعلان أعلى نتائج البحث في موقعك. لاحظ أن حجم الإعلان يجب أن "
+"يكون 728 × 90 بكسل."
+
+#: oc-content/themes/sigma/admin/settings.php:140
+#: oc-includes/osclass/gui/admin/settings.php:126
+msgid "Search results 728x90 (middle of the page)"
+msgstr "نتائج البحث 728 × 90 (منتصف الصفحة)"
+
+#: oc-content/themes/sigma/admin/settings.php:144
+#: oc-includes/osclass/gui/admin/settings.php:130
+msgid ""
+"This ad will be shown among the search results of your site. Note that the "
+"size of the ad has to be 728x90 pixels."
+msgstr ""
+"سيتم عرض هذا الإعلان ضمن نتائج بحث موقعك. لاحظ أن حجم الإعلان يجب أن يكون "
+"728 × 90 بكسل."
+
+#: oc-content/themes/sigma/admin/settings.php:148
+#: oc-includes/osclass/gui/admin/settings.php:134
+msgid "Sidebar 300x250"
+msgstr "الشريط الجانبي 300 × 250"
+
+#: oc-content/themes/sigma/admin/settings.php:152
+#: oc-includes/osclass/gui/admin/settings.php:138
+msgid ""
+"This ad will be shown at the right sidebar of your website, on the product "
+"detail page. Note that the size of the ad has to be 300x350 pixels."
+msgstr ""
+"سيتم عرض هذا الإعلان على الشريط الجانبي الأيمن لموقعك على صفحة تفاصيل "
+"المنتج. لاحظ أن حجم الإعلان يجب أن يكون 300 × 350 بكسل."
+
+#: oc-content/themes/sigma/admin/settings.php:156
+#: oc-includes/osclass/gui/admin/settings.php:142
+msgid "Save changes"
+msgstr "حفظ التغييرات"
+
+#: oc-content/themes/sigma/alert-form.php:24
+#: oc-includes/osclass/gui/alert-form.php:24
+msgid "You have sucessfully subscribed to the alert"
+msgstr "لقد سجلت بنجاح بهذا التنبيه"
+
+#: oc-content/themes/sigma/alert-form.php:25
+#: oc-content/themes/sigma/user-change_email.php:74
+#: oc-includes/osclass/gui/alert-form.php:25
+#: oc-includes/osclass/gui/user-change_email.php:79
+msgid "Invalid email address"
+msgstr "بريد الكتروني خاطئ"
+
+#: oc-content/themes/sigma/alert-form.php:26
+#: oc-includes/osclass/gui/alert-form.php:26
+msgid "There was a problem with the alert"
+msgstr "هناك مشكلة بالتنبيه"
+
+#: oc-content/themes/sigma/alert-form.php:58
+#: oc-includes/osclass/gui/alert-form.php:58
+msgid "Already subscribed to this search"
+msgstr "اشتركت بالفعل في هذا البحث"
+
+#: oc-content/themes/sigma/alert-form.php:62
+#: oc-includes/osclass/gui/alert-form.php:62
+msgid "Subscribe to this search"
+msgstr "اشترك في هذا البحث"
+
+#: oc-content/themes/sigma/alert-form.php:77
+#: oc-includes/osclass/gui/alert-form.php:77
+msgid "Subscribe now"
+msgstr "اشترك الآن"
+
+#: oc-content/themes/sigma/contact.php:28
+#: oc-includes/osclass/gui/contact.php:28
+msgid "Contact us"
+msgstr "راسلنا"
+
+#: oc-content/themes/sigma/contact.php:37
+#: oc-content/themes/sigma/item-send-friend.php:42
+#: oc-content/themes/sigma/item-sidebar.php:103
+#: oc-content/themes/sigma/item.php:213
+#: oc-content/themes/sigma/user-public-sidebar.php:30
+#: oc-includes/osclass/gui/contact.php:37
+#: oc-includes/osclass/gui/item-contact.php:49
+#: oc-includes/osclass/gui/item-send-friend.php:41
+#: oc-includes/osclass/gui/item-sidebar.php:82
+#: oc-includes/osclass/gui/item.php:189
+#: oc-includes/osclass/gui/user-public-sidebar.php:30
+msgid "Your name"
+msgstr "أسمك"
+
+#: oc-content/themes/sigma/contact.php:38
+#: oc-content/themes/sigma/contact.php:51
+#: oc-content/themes/sigma/item-sidebar.php:111
+#: oc-content/themes/sigma/user-public-sidebar.php:38
+#: oc-includes/osclass/gui/contact.php:38
+#: oc-includes/osclass/gui/contact.php:51
+#: oc-includes/osclass/gui/item-contact.php:52
+#: oc-includes/osclass/gui/item-sidebar.php:90
+#: oc-includes/osclass/gui/user-public-sidebar.php:38
+msgid "optional"
+msgstr "اختياري"
+
+#: oc-content/themes/sigma/contact.php:44
+#: oc-content/themes/sigma/user-public-sidebar.php:34
+#: oc-includes/osclass/gui/contact.php:44
+#: oc-includes/osclass/gui/user-public-sidebar.php:34
+msgid "Your email address"
+msgstr "عنوان البريد الإلكتروني الخاص بك"
+
+#: oc-content/themes/sigma/contact.php:50
+#: oc-includes/osclass/gui/contact.php:50
+msgid "Subject"
+msgstr "الموضوع"
+
+#: oc-content/themes/sigma/contact.php:57
+#: oc-content/themes/sigma/item-send-friend.php:76
+#: oc-content/themes/sigma/item-sidebar.php:116
+#: oc-content/themes/sigma/user-public-sidebar.php:43
+#: oc-includes/osclass/gui/contact.php:57
+#: oc-includes/osclass/gui/item-contact.php:53
+#: oc-includes/osclass/gui/item-send-friend.php:75
+#: oc-includes/osclass/gui/item-sidebar.php:95
+#: oc-includes/osclass/gui/user-public-sidebar.php:43
+msgid "Message"
+msgstr "الرسالة"
+
+#: oc-content/themes/sigma/contact.php:65
+#: oc-content/themes/sigma/item-send-friend.php:85
+#: oc-content/themes/sigma/item-sidebar.php:131
+#: oc-content/themes/sigma/item.php:257
+#: oc-content/themes/sigma/user-public-sidebar.php:66
+#: oc-includes/osclass/gui/contact.php:65
+#: oc-includes/osclass/gui/item-send-friend.php:84
+#: oc-includes/osclass/gui/item-sidebar.php:110
+#: oc-includes/osclass/gui/item.php:214
+#: oc-includes/osclass/gui/user-public-sidebar.php:51
+msgid "Send"
+msgstr "إرسال"
+
+#: oc-content/themes/sigma/footer.php:29
+#: oc-content/themes/sigma/functions.php:427
+#: oc-content/themes/sigma/header.php:44
+#: oc-content/themes/sigma/user-public-sidebar.php:23
+#: oc-includes/osclass/gui/footer.php:65
+#: oc-includes/osclass/gui/functions.php:437
+#: oc-includes/osclass/gui/user-public-sidebar.php:23
+msgid "Contact"
+msgstr "أتصل بنا"
+
+#: oc-content/themes/sigma/footer.php:41
+#, php-format
+msgid ""
+"Powered by <a title=\"Osclass classifieds script\" href=\"%s\">best "
+"classifieds scripts</a> osclass"
+msgstr ""
+"مدعوم من فئة <a title=\"Osclass Classifieds script\" href=\"%s\"> أفضل نصوص "
+"الإعلانات المبوبة </a>"
+
+#: oc-content/themes/sigma/functions.php:29 oc-includes/osclass/gui/main.php:35
+msgid "Latest Listings"
+msgstr "لا توجد أعلانات حتى الآن"
+
+#: oc-content/themes/sigma/functions.php:45
+#: oc-includes/osclass/gui/functions.php:26
+msgid "ie. PHP Programmer"
+msgstr "مثلا مبرمج php"
+
+#: oc-content/themes/sigma/functions.php:408
+#: oc-content/themes/sigma/item-post.php:47
+#: oc-includes/osclass/gui/functions.php:418
+#: oc-includes/osclass/gui/item-post.php:43
+msgid "Publish a listing"
+msgstr "نشر اعلان"
+
+#: oc-content/themes/sigma/functions.php:409
+#: oc-includes/osclass/gui/functions.php:419
+msgid "Edit your listing"
+msgstr "تعديل أعلاناتك"
+
+#: oc-content/themes/sigma/functions.php:410
+#: oc-content/themes/sigma/item-send-friend.php:29
+#: oc-includes/osclass/gui/functions.php:420
+#: oc-includes/osclass/gui/item-send-friend.php:28
+msgid "Send to a friend"
+msgstr "إرسال لصديق"
+
+#: oc-content/themes/sigma/functions.php:411
+#: oc-content/themes/sigma/item-sidebar.php:48
+#: oc-includes/osclass/gui/functions.php:421
+#: oc-includes/osclass/gui/item-sidebar.php:46
+msgid "Contact publisher"
+msgstr "معلومات الناشر"
+
+#: oc-content/themes/sigma/functions.php:412
+#: oc-includes/osclass/gui/functions.php:422
+msgid "Search results"
+msgstr "نتائج البحث"
+
+#: oc-content/themes/sigma/functions.php:413
+#: oc-includes/osclass/gui/functions.php:423
+#, php-format
+msgid "Search results: %s"
+msgstr "نتائج البحث : %s"
+
+#: oc-content/themes/sigma/functions.php:414
+#: oc-includes/osclass/gui/functions.php:424
+msgid "Dashboard"
+msgstr "لوحة التحكم"
+
+#: oc-content/themes/sigma/functions.php:415
+#: oc-includes/osclass/gui/functions.php:425
+#, php-format
+msgid "%s's profile"
+msgstr "%s » الملف الشخصي"
+
+#: oc-content/themes/sigma/functions.php:416
+#: oc-content/themes/sigma/functions.php:465
+#: oc-includes/osclass/gui/functions.php:426
+#: oc-includes/osclass/gui/functions.php:478
+msgid "Account"
+msgstr "الخيارات الشخصية"
+
+#: oc-content/themes/sigma/functions.php:417
+#: oc-content/themes/sigma/functions.php:455
+#: oc-content/themes/sigma/search.php:135
+#: oc-content/themes/sigma/user-alerts.php:48
+#: oc-includes/osclass/gui/functions.php:427
+#: oc-includes/osclass/gui/functions.php:468
+#: oc-includes/osclass/gui/search.php:141
+#: oc-includes/osclass/gui/user-alerts.php:53
+msgid "Listings"
+msgstr "الأعلانات"
+
+#: oc-content/themes/sigma/functions.php:418
+#: oc-content/themes/sigma/functions.php:460
+#: oc-content/themes/sigma/user-alerts.php:29
+#: oc-content/themes/sigma/user-alerts.php:34
+#: oc-includes/osclass/gui/functions.php:428
+#: oc-includes/osclass/gui/functions.php:473
+#: oc-includes/osclass/gui/user-alerts.php:34
+#: oc-includes/osclass/gui/user-alerts.php:39
+msgid "Alerts"
+msgstr "تنبيهات"
+
+#: oc-content/themes/sigma/functions.php:419
+#: oc-content/themes/sigma/user-profile.php:36
+#: oc-content/themes/sigma/user-profile.php:42
+#: oc-includes/osclass/gui/functions.php:429
+#: oc-includes/osclass/gui/user-profile.php:34
+#: oc-includes/osclass/gui/user-profile.php:39
+msgid "Update account"
+msgstr "تحديث الحساب"
+
+#: oc-content/themes/sigma/functions.php:420
+#: oc-content/themes/sigma/functions.php:470
+#: oc-includes/osclass/gui/functions.php:430
+#: oc-includes/osclass/gui/functions.php:483
+msgid "Change email"
+msgstr "تغيير البريد الإلكتروني"
+
+#: oc-content/themes/sigma/functions.php:421
+#: oc-content/themes/sigma/functions.php:475
+#: oc-content/themes/sigma/user-change_username.php:31
+#: oc-content/themes/sigma/user-change_username.php:36
+#: oc-includes/osclass/gui/functions.php:431
+#: oc-includes/osclass/gui/functions.php:488
+#: oc-includes/osclass/gui/user-change_username.php:36
+#: oc-includes/osclass/gui/user-change_username.php:41
+msgid "Change username"
+msgstr "تغيير اسم المستخدم"
+
+#: oc-content/themes/sigma/functions.php:422
+#: oc-content/themes/sigma/functions.php:425
+#: oc-content/themes/sigma/functions.php:480
+#: oc-content/themes/sigma/user-change_password.php:29
+#: oc-content/themes/sigma/user-change_password.php:34
+#: oc-content/themes/sigma/user-forgot_password.php:49
+#: oc-includes/osclass/gui/functions.php:432
+#: oc-includes/osclass/gui/functions.php:435
+#: oc-includes/osclass/gui/functions.php:493
+#: oc-includes/osclass/gui/user-change_password.php:34
+#: oc-includes/osclass/gui/user-change_password.php:39
+#: oc-includes/osclass/gui/user-forgot_password.php:49
+msgid "Change password"
+msgstr "غير كلمة المرور"
+
+#: oc-content/themes/sigma/functions.php:423
+#: oc-content/themes/sigma/header.php:51
+#: oc-content/themes/sigma/item-sidebar.php:93
+#: oc-includes/osclass/gui/footer.php:37
+#: oc-includes/osclass/gui/functions.php:433
+#: oc-includes/osclass/gui/header.php:50
+#: oc-includes/osclass/gui/item-sidebar.php:60
+msgid "Login"
+msgstr "تسجيل الدخول"
+
+#: oc-content/themes/sigma/functions.php:424
+#: oc-includes/osclass/gui/functions.php:434
+msgid "Recover password"
+msgstr "استعادة كلمة السر"
+
+#: oc-content/themes/sigma/functions.php:426
+#: oc-includes/osclass/gui/functions.php:436
+msgid "Create a new account"
+msgstr "إنشاء حساب جديد"
+
+#: oc-content/themes/sigma/functions.php:450
+#: oc-includes/osclass/gui/functions.php:463
+msgid "Public Profile"
+msgstr "<i class=\"fa fa-address-card-o\"></i>ملف عام"
+
+#: oc-content/themes/sigma/functions.php:485
+#: oc-content/themes/sigma/user-sidebar.php:28
+#: oc-includes/osclass/gui/functions.php:498
+#: oc-includes/osclass/gui/user-sidebar.php:25
+msgid "Delete account"
+msgstr "حذف حساب"
+
+#: oc-content/themes/sigma/functions.php:552
+#: oc-includes/osclass/gui/functions.php:563
+msgid "Theme settings updated correctly"
+msgstr "تم تحديث اعدادات القالب بشكل صحيح"
+
+#: oc-content/themes/sigma/functions.php:567
+#: oc-includes/osclass/gui/functions.php:578
+msgid "The logo image has been uploaded correctly"
+msgstr "تم تحميل صورة الشعار بشكل صحيح"
+
+#: oc-content/themes/sigma/functions.php:569
+#: oc-includes/osclass/gui/functions.php:580
+msgid "An error has occurred, please try again"
+msgstr "لقد حدث خطأ، يرجى المحاولة مرة أخرى"
+
+#: oc-content/themes/sigma/functions.php:580
+#: oc-includes/osclass/gui/functions.php:591
+msgid "The logo image has been removed"
+msgstr "تمت إزالة صورة الشعار"
+
+#: oc-content/themes/sigma/functions.php:582
+#: oc-includes/osclass/gui/functions.php:593
+msgid "Image not found"
+msgstr "الصورة غير موجودة"
+
+#: oc-content/themes/sigma/functions.php:669
+#: oc-content/themes/sigma/functions.php:691
+#: oc-content/themes/sigma/main.php:30
+#: oc-includes/osclass/gui/functions.php:689
+#: oc-includes/osclass/gui/functions.php:711
+msgid "All categories"
+msgstr "جميع التصنيفات"
+
+#: oc-content/themes/sigma/head.php:22 oc-content/themes/sigma/item.php:187
+#: oc-content/themes/sigma/loop-single.php:64
+#: oc-includes/osclass/gui/common/head.php:22
+#: oc-includes/osclass/gui/item.php:163
+#: oc-includes/osclass/gui/loop-single-premium.php:66
+#: oc-includes/osclass/gui/loop-single.php:66
+msgid "Delete"
+msgstr "حذف"
+
+#: oc-content/themes/sigma/head.php:23
+#: oc-includes/osclass/gui/common/head.php:23
+msgid "Cancel"
+msgstr "الغاء"
+
+#: oc-content/themes/sigma/head.php:72
+#: oc-includes/osclass/gui/common/head.php:87
+msgid "Previous image"
+msgstr "الصورة السابقة"
+
+#: oc-content/themes/sigma/head.php:73
+#: oc-includes/osclass/gui/common/head.php:88
+msgid "Next image"
+msgstr "الصورة التالية"
+
+#: oc-content/themes/sigma/head.php:74
+#: oc-includes/osclass/gui/common/head.php:89
+msgid "Close"
+msgstr "إغلاق"
+
+#: oc-content/themes/sigma/header.php:42
+msgid "Home"
+msgstr "الرئيسية"
+
+#: oc-content/themes/sigma/header.php:43 oc-content/themes/sigma/header.php:60
+msgid "Publish Ad"
+msgstr "نشر الإعلان"
+
+#: oc-content/themes/sigma/header.php:48 oc-includes/osclass/gui/footer.php:33
+#: oc-includes/osclass/gui/header.php:46
+msgid "My account"
+msgstr "حسابي"
+
+#: oc-content/themes/sigma/header.php:49 oc-includes/osclass/gui/footer.php:34
+#: oc-includes/osclass/gui/header.php:47
+msgid "Logout"
+msgstr "الخروج"
+
+#: oc-content/themes/sigma/header.php:54
+msgid "Register"
+msgstr "التسجيل"
+
+#: oc-content/themes/sigma/header.php:82
+msgid "What are you looking for today?"
+msgstr "ما الذي تبحث عنه اليوم؟"
+
+#: oc-content/themes/sigma/header.php:87
+msgid "Keyword"
+msgstr "كلمة مفتاحية"
+
+#: oc-content/themes/sigma/header.php:92
+#: oc-content/themes/sigma/item-post.php:60
+#: oc-includes/osclass/gui/item-post.php:56
+msgid "Category"
+msgstr "التصنيف"
+
+#: oc-content/themes/sigma/header.php:93
+#: oc-content/themes/sigma/item-post.php:62
+#: oc-includes/osclass/gui/header.php:73
+#: oc-includes/osclass/gui/inc.search.php:53
+#: oc-includes/osclass/gui/item-post.php:59
+msgid "Select a category"
+msgstr "اختر التصنيف"
+
+#: oc-content/themes/sigma/header.php:98 oc-includes/osclass/gui/404.php:37
+#: oc-includes/osclass/gui/header.php:83
+#: oc-includes/osclass/gui/inc.search.php:59
+msgid "Search"
+msgstr "بحث"
+
+#: oc-content/themes/sigma/item-post.php:58
+#: oc-includes/osclass/gui/item-post.php:54
+msgid "General Information"
+msgstr "معلومات عامة"
+
+#: oc-content/themes/sigma/item-post.php:66
+#: oc-content/themes/sigma/item.php:245
+#: oc-includes/osclass/gui/item-post.php:65
+#: oc-includes/osclass/gui/item.php:202
+msgid "Title"
+msgstr "العنوان"
+
+#: oc-content/themes/sigma/item-post.php:72
+#: oc-content/themes/sigma/user-profile.php:131
+#: oc-includes/osclass/gui/item-post.php:71
+#: oc-includes/osclass/gui/user-profile.php:109
+msgid "Description"
+msgstr "الوصف"
+
+#: oc-content/themes/sigma/item-post.php:79
+#: oc-content/themes/sigma/search-sidebar.php:62
+#: oc-includes/osclass/gui/item-post.php:78
+#: oc-includes/osclass/gui/search-sidebar.php:59
+msgid "Price"
+msgstr "السعر"
+
+#: oc-content/themes/sigma/item-post.php:93
+#: oc-includes/osclass/gui/item-post.php:92
+msgid "Listing Location"
+msgstr "موقع الاعلان"
+
+#: oc-content/themes/sigma/item-post.php:96
+#: oc-content/themes/sigma/user-profile.php:95
+#: oc-includes/osclass/gui/item-post.php:95
+#: oc-includes/osclass/gui/user-profile.php:73
+msgid "Country"
+msgstr "البلد"
+
+#: oc-content/themes/sigma/item-post.php:102
+#: oc-content/themes/sigma/item-post.php:128
+#: oc-content/themes/sigma/user-profile.php:101
+#: oc-includes/osclass/gui/item-post.php:101
+#: oc-includes/osclass/gui/item-post.php:132
+#: oc-includes/osclass/gui/user-profile.php:79
+msgid "Region"
+msgstr "المنطقة"
+
+#: oc-content/themes/sigma/item-post.php:150
+#: oc-content/themes/sigma/search-sidebar.php:44
+#: oc-content/themes/sigma/user-profile.php:107
+#: oc-includes/osclass/gui/item-post.php:154
+#: oc-includes/osclass/gui/search-sidebar.php:41
+#: oc-includes/osclass/gui/user-profile.php:85
+msgid "City"
+msgstr "المدينة"
+
+#: oc-content/themes/sigma/item-post.php:166
+#: oc-includes/osclass/gui/item-post.php:170
+msgid "City Area"
+msgstr "العنوان"
+
+#: oc-content/themes/sigma/item-post.php:172
+#: oc-content/themes/sigma/user-profile.php:119
+#: oc-includes/osclass/gui/item-post.php:176
+#: oc-includes/osclass/gui/user-profile.php:97
+msgid "Address"
+msgstr "العنوان"
+
+#: oc-content/themes/sigma/item-post.php:181
+#: oc-includes/osclass/gui/item-post.php:185
+msgid "Seller's information"
+msgstr "معلومات المعلن"
+
+#: oc-content/themes/sigma/item-post.php:185
+#: oc-content/themes/sigma/item-sidebar.php:57
+#: oc-content/themes/sigma/item-sidebar.php:59
+#: oc-content/themes/sigma/user-profile.php:70
+#: oc-content/themes/sigma/user-register.php:36
+#: oc-includes/osclass/gui/item-post.php:187
+#: oc-includes/osclass/gui/item-sidebar.php:65
+#: oc-includes/osclass/gui/user-profile.php:48
+#: oc-includes/osclass/gui/user-register.php:36
+msgid "Name"
+msgstr "الاسم"
+
+#: oc-content/themes/sigma/item-post.php:192
+#: oc-content/themes/sigma/item-sidebar.php:63
+#: oc-content/themes/sigma/user-login.php:35
+#: oc-content/themes/sigma/user-recover.php:34
+#: oc-content/themes/sigma/user-register.php:42
+#: oc-includes/osclass/gui/item-post.php:193
+#: oc-includes/osclass/gui/user-login.php:35
+#: oc-includes/osclass/gui/user-recover.php:34
+#: oc-includes/osclass/gui/user-register.php:47
+msgid "E-mail"
+msgstr "البريد الإلكتروني"
+
+#: oc-content/themes/sigma/item-post.php:200
+#: oc-includes/osclass/gui/item-post.php:200
+msgid "Show e-mail on the listing page"
+msgstr "إظهار البريد الإلكتروني على صفحة الاعلان"
+
+#: oc-content/themes/sigma/item-post.php:206
+#: oc-content/themes/sigma/item-sidebar.php:67
+#: oc-content/themes/sigma/user-profile.php:89
+#: oc-includes/osclass/gui/user-profile.php:67
+msgid "Phone"
+msgstr "الهاتف"
+
+#: oc-content/themes/sigma/item-post.php:214
+msgid "Show phone on the listing page"
+msgstr "عرض الهاتف على صفحة القائمة"
+
+#: oc-content/themes/sigma/item-post.php:219
+msgid "Other contact"
+msgstr "وسيلة أتصال أخرى"
+
+#: oc-content/themes/sigma/item-post.php:234
+#: oc-content/themes/sigma/user-change_email.php:56
+#: oc-content/themes/sigma/user-change_password.php:61
+#: oc-content/themes/sigma/user-change_username.php:99
+#: oc-content/themes/sigma/user-profile.php:141
+#: oc-includes/osclass/gui/item-post.php:219
+#: oc-includes/osclass/gui/user-change_email.php:61
+#: oc-includes/osclass/gui/user-change_password.php:66
+#: oc-includes/osclass/gui/user-change_username.php:104
+#: oc-includes/osclass/gui/user-profile.php:117
+msgid "Update"
+msgstr "تحديث"
+
+#: oc-content/themes/sigma/item-post.php:234
+#: oc-includes/osclass/gui/item-post.php:219
+msgid "Publish"
+msgstr "نشر"
+
+#: oc-content/themes/sigma/item-send-friend.php:48
+#: oc-content/themes/sigma/item.php:219
+#: oc-includes/osclass/gui/item-send-friend.php:47
+#: oc-includes/osclass/gui/item.php:195
+msgid "Your e-mail"
+msgstr "البريد الإلكتروني الخاص بك"
+
+#: oc-content/themes/sigma/item-send-friend.php:55
+#: oc-includes/osclass/gui/item-send-friend.php:54
+msgid "Your friend's name"
+msgstr "اسم صديقك"
+
+#: oc-content/themes/sigma/item-send-friend.php:61
+#: oc-includes/osclass/gui/item-send-friend.php:60
+msgid "Your friend's e-mail address"
+msgstr "عنوان البريد الالكتروني لصديقك"
+
+#: oc-content/themes/sigma/item-send-friend.php:68
+#: oc-includes/osclass/gui/item-send-friend.php:67
+msgid "Subject (optional)"
+msgstr "الموضوع (اختياري)"
+
+#: oc-content/themes/sigma/item-sidebar.php:29
+#: oc-includes/osclass/gui/item-sidebar.php:27
+msgid "Mark as..."
+msgstr "اشرها كـ ..."
+
+#: oc-content/themes/sigma/item-sidebar.php:30
+#: oc-includes/osclass/gui/item-sidebar.php:28
+msgid "Mark as spam"
+msgstr "التحديد كرسائل غير مرغوب فيها"
+
+#: oc-content/themes/sigma/item-sidebar.php:31
+#: oc-includes/osclass/gui/item-sidebar.php:29
+msgid "Mark as misclassified"
+msgstr "اشرها كـغير مبوبة"
+
+#: oc-content/themes/sigma/item-sidebar.php:32
+#: oc-includes/osclass/gui/item-sidebar.php:30
+msgid "Mark as duplicated"
+msgstr "اشرها كـمكررة"
+
+#: oc-content/themes/sigma/item-sidebar.php:33
+#: oc-includes/osclass/gui/item-sidebar.php:31
+msgid "Mark as expired"
+msgstr "اشرها كـمنتهية الصلاحية"
+
+#: oc-content/themes/sigma/item-sidebar.php:34
+#: oc-includes/osclass/gui/item-sidebar.php:32
+msgid "Mark as offensive"
+msgstr "اشرها كـعدائي"
+
+#: oc-content/themes/sigma/item-sidebar.php:57
+msgid "online"
+msgstr "متصل"
+
+#: oc-content/themes/sigma/item-sidebar.php:71
+msgid "Other"
+msgstr "آخر"
+
+#: oc-content/themes/sigma/item-sidebar.php:74
+#: oc-content/themes/sigma/item.php:121 oc-content/themes/sigma/item.php:126
+#: oc-includes/osclass/gui/item-contact.php:32
+#: oc-includes/osclass/gui/item.php:119
+msgid "Contact seller"
+msgstr "مراسلة المعلن"
+
+#: oc-content/themes/sigma/item-sidebar.php:82
+#: oc-includes/osclass/gui/item-sidebar.php:49
+msgid "The listing is expired. You can't contact the publisher."
+msgstr "الاعلان منتهي الصلاحية. لا يمكنك الاتصال بالناشر."
+
+#: oc-content/themes/sigma/item-sidebar.php:86
+#: oc-includes/osclass/gui/item-sidebar.php:53
+msgid "It's your own listing, you can't contact the publisher."
+msgstr "انه الاعلان الخاص بك، لايمكن الاتصال بنفسك."
+
+#: oc-content/themes/sigma/item-sidebar.php:90
+#: oc-includes/osclass/gui/item-sidebar.php:57
+msgid ""
+"You must log in or register a new account in order to contact the advertiser"
+msgstr "الاتصال بالمعلن للمسجلين فقط"
+
+#: oc-content/themes/sigma/item-sidebar.php:107
+#: oc-includes/osclass/gui/item-contact.php:50
+#: oc-includes/osclass/gui/item-sidebar.php:86
+msgid "Your e-mail address"
+msgstr "عنوان البريد الإلكتروني الخاص بك"
+
+#: oc-content/themes/sigma/item-sidebar.php:111
+#: oc-content/themes/sigma/user-public-sidebar.php:38
+#: oc-includes/osclass/gui/item-contact.php:52
+#: oc-includes/osclass/gui/item-sidebar.php:90
+#: oc-includes/osclass/gui/user-public-sidebar.php:38
+msgid "Phone number"
+msgstr "رقم الهاتف"
+
+#: oc-content/themes/sigma/item-sidebar.php:122
+#: oc-includes/osclass/gui/item-sidebar.php:101
+msgid "Attachment"
+msgstr "مرفق"
+
+#: oc-content/themes/sigma/item-sidebar.php:142
+#: oc-includes/osclass/gui/item.php:129
+msgid "Useful information"
+msgstr "معلومات مفيدة"
+
+#: oc-content/themes/sigma/item-sidebar.php:144
+#: oc-includes/osclass/gui/item.php:131
+msgid "Avoid scams by acting locally or paying with PayPal"
+msgstr "تجنب عمليات الاحتيال من خلال العمل محليا أو يدفع مع Paypal"
+
+#: oc-content/themes/sigma/item-sidebar.php:145
+#: oc-includes/osclass/gui/item.php:132
+msgid ""
+"Never pay with Western Union, Moneygram or other anonymous payment services"
+msgstr ""
+"لا تدفع أبداً بواسطة ويسترن يونيون، موني جرام أو غيرها من خدمات الدفع المجهول"
+
+#: oc-content/themes/sigma/item-sidebar.php:146
+#: oc-includes/osclass/gui/item.php:133
+msgid ""
+"Don't buy or sell outside of your country. Don't accept cashier cheques from "
+"outside your country"
+msgstr "لا تشتري أو تبيع خارج بلدك. لا نقبل الشيكات من خارج بلدك"
+
+#: oc-content/themes/sigma/item-sidebar.php:147
+#: oc-includes/osclass/gui/item.php:134
+msgid ""
+"This site is never involved in any transaction, and does not handle "
+"payments, shipping, guarantee transactions, provide escrow services, or "
+"offer \"buyer protection\" or \"seller certification\""
+msgstr ""
+"هذا الموقع لا يشارك ابداً في أي صفقة، ولا تتم معالجة اي من المدفوعات او "
+"الشحن، او المعاملات او الضمان ولا يقدم خدمات الضمان، أو تقديم \"حماية للمشتري"
+"\" أو \"توثيق للمعلن\""
+
+#: oc-content/themes/sigma/item.php:60
+#, php-format
+msgid "<strong class=\"publish\">Published date:</strong> %1$s"
+msgstr "<strong class = \"publish\"> تاريخ النشر: </ strong> %1$s"
+
+#: oc-content/themes/sigma/item.php:61 oc-includes/osclass/gui/item.php:62
+#, php-format
+msgid "<strong class=\"update\">Modified date:</strong> %1$s"
+msgstr "<strong class=\"update\">تأريخ التعديل:</strong> %1$s"
+
+#: oc-content/themes/sigma/item.php:64 oc-includes/osclass/gui/item.php:66
+#: oc-includes/osclass/gui/main.php:85
+msgid "Location"
+msgstr "الموقع"
+
+#: oc-content/themes/sigma/item.php:71
+#: oc-content/themes/sigma/loop-single.php:50
+#: oc-includes/osclass/gui/item.php:73
+#: oc-includes/osclass/gui/loop-single-premium.php:64
+#: oc-includes/osclass/gui/loop-single.php:64
+msgid "Edit item"
+msgstr "تعديل الأعلان"
+
+#: oc-content/themes/sigma/item.php:84 oc-content/themes/sigma/item.php:89
+#: oc-includes/osclass/gui/item.php:85 oc-includes/osclass/gui/item.php:90
+msgid "Image"
+msgstr "صورة"
+
+#: oc-content/themes/sigma/item.php:127 oc-includes/osclass/gui/item.php:123
+msgid "Share"
+msgstr "شارك"
+
+#: oc-content/themes/sigma/item.php:138 oc-includes/osclass/gui/item.php:141
+msgid "Related listings"
+msgstr "الإعلانات ذات الصلة"
+
+#: oc-content/themes/sigma/item.php:153 oc-includes/osclass/gui/item.php:152
+msgid "Comments"
+msgstr "التعليقات"
+
+#: oc-content/themes/sigma/item.php:166 oc-includes/osclass/gui/item.php:159
+msgid "by"
+msgstr "بواسطة"
+
+#: oc-content/themes/sigma/item.php:180
+#, php-format
+msgid "%d of 5"
+msgstr "%d من 5"
+
+#: oc-content/themes/sigma/item.php:187 oc-includes/osclass/gui/item.php:163
+msgid "Delete your comment"
+msgstr "حذف تعليقك"
+
+#: oc-content/themes/sigma/item.php:199 oc-includes/osclass/gui/item.php:175
+msgid "Leave your comment (spam and offensive messages will be removed)"
+msgstr "اكتب تعليقك (سيتم حذف الرسائل المزعجة والعدوانية)"
+
+#: oc-content/themes/sigma/item.php:227
+msgid "Rating"
+msgstr "تقييم"
+
+#: oc-content/themes/sigma/item.php:251 oc-includes/osclass/gui/item.php:208
+msgid "Comment"
+msgstr "التعليق"
+
+#: oc-content/themes/sigma/item.php:273
+msgid "of"
+msgstr "من"
+
+#: oc-content/themes/sigma/loop-single.php:53
+msgid "Renew"
+msgstr "تجديد"
+
+#: oc-content/themes/sigma/loop-single.php:57
+#: oc-includes/osclass/gui/loop-single-premium.php:69
+#: oc-includes/osclass/gui/loop-single.php:69
+msgid "Activate"
+msgstr "تفعيل"
+
+#: oc-content/themes/sigma/loop-single.php:61
+msgid "Deactivate"
+msgstr "عدم التفعيل"
+
+#: oc-content/themes/sigma/loop-single.php:64
+#: oc-includes/osclass/gui/loop-single-premium.php:66
+#: oc-includes/osclass/gui/loop-single.php:66
+msgid "This action can not be undone. Are you sure you want to continue?"
+msgstr "لا يمكن التراجع عن هذا الإجراء. هل أنت متأكد أنك تريد المتابعة؟"
+
+#: oc-content/themes/sigma/main.php:54
+msgid "All locations"
+msgstr "جميع المواقع"
+
+#: oc-content/themes/sigma/search-sidebar.php:38
+#: oc-includes/osclass/gui/search-sidebar.php:35
+msgid "Your search"
+msgstr "بحثك"
+
+#: oc-content/themes/sigma/search-sidebar.php:52
+#: oc-includes/osclass/gui/search-sidebar.php:49
+msgid "Show only"
+msgstr "عرض فقط"
+
+#: oc-content/themes/sigma/search-sidebar.php:55
+#: oc-includes/osclass/gui/search-sidebar.php:52
+msgid "listings with pictures"
+msgstr "اعلانات مع الصور"
+
+#: oc-content/themes/sigma/search-sidebar.php:65
+#: oc-includes/osclass/gui/search-sidebar.php:60
+msgid "Min"
+msgstr "القيمة الصغرى"
+
+#: oc-content/themes/sigma/search-sidebar.php:70
+#: oc-includes/osclass/gui/search-sidebar.php:62
+msgid "Max"
+msgstr "القيمة العظمى"
+
+#: oc-content/themes/sigma/search-sidebar.php:91
+#: oc-includes/osclass/gui/search-sidebar.php:82
+msgid "Apply"
+msgstr "تطبيق"
+
+#: oc-content/themes/sigma/search-sidebar.php:99
+#: oc-includes/osclass/gui/search-sidebar.php:87
+msgid "Refine category"
+msgstr "حسّن التصنيف"
+
+#: oc-content/themes/sigma/search.php:55 oc-includes/osclass/gui/search.php:52
+msgid "Selected"
+msgstr "مختار"
+
+#: oc-content/themes/sigma/search.php:56 oc-includes/osclass/gui/search.php:53
+msgid "Nothing selected, input was"
+msgstr "لا شيء اختيارها، كان الإدخال"
+
+#: oc-content/themes/sigma/search.php:75 oc-includes/osclass/gui/search.php:71
+#, php-format
+msgid "There are no results matching \"%s\""
+msgstr "لا توجد نتائج مطابقة الى %s"
+
+#: oc-content/themes/sigma/search.php:79 oc-includes/osclass/gui/search.php:75
+#, php-format
+msgid "%1$d - %2$d of %3$d listings"
+msgstr "%1$d - %2$d من %3$d اعلانات"
+
+#: oc-content/themes/sigma/search.php:82 oc-includes/osclass/gui/search.php:78
+msgid "Show filters"
+msgstr "عرض الفلاتر"
+
+#: oc-content/themes/sigma/search.php:86 oc-includes/osclass/gui/search.php:91
+msgid "Sort by"
+msgstr "عرض حسب"
+
+#: oc-content/themes/sigma/search.php:127
+#: oc-includes/osclass/gui/search.php:133
+msgid "Premium listings"
+msgstr "الصفقات الذكية"
+
+#: oc-content/themes/sigma/search.php:148
+#: oc-includes/osclass/gui/search.php:157
+msgid "Other searches that may interest you"
+msgstr "عمليات البحث الأخرى التي قد تهمك"
+
+#: oc-content/themes/sigma/user-alerts.php:36
+#: oc-includes/osclass/gui/user-alerts.php:41
+msgid "You do not have any alerts yet"
+msgstr "ليس لديك أي تنبيهات حتى الآن"
+
+#: oc-content/themes/sigma/user-alerts.php:43
+#: oc-includes/osclass/gui/user-alerts.php:48
+msgid "Alert"
+msgstr "تنبيه"
+
+#: oc-content/themes/sigma/user-alerts.php:43
+#: oc-includes/osclass/gui/user-alerts.php:48
+msgid "This action can't be undone. Are you sure you want to continue?"
+msgstr "لا يمكن التراجع عن هذا الإجراء. هل أنت متأكد أنك تريد المتابعة؟"
+
+#: oc-content/themes/sigma/user-alerts.php:43
+#: oc-includes/osclass/gui/user-alerts.php:48
+msgid "Delete this alert"
+msgstr "حذف هذا التنبيه"
+
+#: oc-content/themes/sigma/user-change_email.php:30
+#: oc-content/themes/sigma/user-change_email.php:35
+#: oc-includes/osclass/gui/user-change_email.php:35
+#: oc-includes/osclass/gui/user-change_email.php:40
+msgid "Change e-mail"
+msgstr "تغيير البريد الإلكتروني"
+
+#: oc-content/themes/sigma/user-change_email.php:43
+#: oc-includes/osclass/gui/user-change_email.php:48
+msgid "Current e-mail"
+msgstr "البريد الإلكتروني الحالي"
+
+#: oc-content/themes/sigma/user-change_email.php:49
+#: oc-includes/osclass/gui/user-change_email.php:54
+msgid "New e-mail"
+msgstr "بريد إلكتروني جديد"
+
+#: oc-content/themes/sigma/user-change_email.php:73
+#: oc-includes/osclass/gui/user-change_email.php:78
+msgid "Email: this field is required"
+msgstr "البريد الإلكتروني: هذا الحقل مطلوب"
+
+#: oc-content/themes/sigma/user-change_password.php:42
+#: oc-includes/osclass/gui/user-change_password.php:47
+msgid "Current password"
+msgstr "كلمة المرور الحالية"
+
+#: oc-content/themes/sigma/user-change_password.php:48
+#: oc-content/themes/sigma/user-forgot_password.php:36
+#: oc-includes/osclass/gui/user-change_password.php:53
+#: oc-includes/osclass/gui/user-forgot_password.php:36
+msgid "New password"
+msgstr "كلمة المرور الجديدة"
+
+#: oc-content/themes/sigma/user-change_password.php:54
+#: oc-content/themes/sigma/user-forgot_password.php:42
+#: oc-includes/osclass/gui/user-change_password.php:59
+#: oc-includes/osclass/gui/user-forgot_password.php:42
+msgid "Repeat new password"
+msgstr "كرر كلمة مرور الجديدة"
+
+#: oc-content/themes/sigma/user-change_username.php:47
+#: oc-includes/osclass/gui/user-change_username.php:52
+msgid "Username: this field is required"
+msgstr "اسم المستخدم: هذا الحقل مطلوب"
+
+#: oc-content/themes/sigma/user-change_username.php:72
+#: oc-includes/osclass/gui/user-change_username.php:77
+msgid "The username is available"
+msgstr "اسم المستخدم هذا متاح"
+
+#: oc-content/themes/sigma/user-change_username.php:74
+#: oc-includes/osclass/gui/user-change_username.php:79
+msgid "The username is NOT available"
+msgstr "اسم المستخدم هذا غير متاح"
+
+#: oc-content/themes/sigma/user-change_username.php:91
+#: oc-includes/osclass/gui/user-change_username.php:96
+msgid "Username"
+msgstr "اسم المستخدم"
+
+#: oc-content/themes/sigma/user-forgot_password.php:27
+#: oc-content/themes/sigma/user-recover.php:27
+#: oc-includes/osclass/gui/user-forgot_password.php:27
+#: oc-includes/osclass/gui/user-recover.php:27
+msgid "Recover your password"
+msgstr "استعادة كلمة السر"
+
+#: oc-content/themes/sigma/user-items.php:40
+#: oc-includes/osclass/gui/user-items.php:38
+msgid "My listings"
+msgstr "أعلاناتي"
+
+#: oc-content/themes/sigma/user-items.php:42
+#: oc-includes/osclass/gui/user-items.php:40
+msgid "No listings have been added yet"
+msgstr "لم يتم إضافة أي اعلان حتى الآن"
+
+#: oc-content/themes/sigma/user-login.php:27
+#: oc-includes/osclass/gui/user-login.php:27
+msgid "Access to your account"
+msgstr "الوصول إلى حسابك"
+
+#: oc-content/themes/sigma/user-login.php:41
+#: oc-content/themes/sigma/user-register.php:48
+#: oc-includes/osclass/gui/user-login.php:41
+#: oc-includes/osclass/gui/user-register.php:58
+msgid "Password"
+msgstr "كلمة المرور"
+
+#: oc-content/themes/sigma/user-login.php:49
+#: oc-includes/osclass/gui/user-login.php:48
+msgid "Remember me"
+msgstr "تذكرني"
+
+#: oc-content/themes/sigma/user-login.php:55
+#: oc-includes/osclass/gui/user-login.php:51
+msgid "Log in"
+msgstr "تسجيل دخول"
+
+#: oc-content/themes/sigma/user-login.php:60
+#: oc-includes/osclass/gui/footer.php:40 oc-includes/osclass/gui/header.php:52
+#: oc-includes/osclass/gui/item-sidebar.php:61
+#: oc-includes/osclass/gui/user-login.php:55
+msgid "Register for a free account"
+msgstr "سجل للحصول على حساب مجاني"
+
+#: oc-content/themes/sigma/user-login.php:61
+#: oc-includes/osclass/gui/user-login.php:55
+msgid "Forgot password?"
+msgstr "أنسيت كلمة المرور ؟"
+
+#: oc-content/themes/sigma/user-profile.php:53
+msgid "Picture"
+msgstr "صورة"
+
+#: oc-content/themes/sigma/user-profile.php:76
+#: oc-includes/osclass/gui/user-profile.php:54
+msgid "User type"
+msgstr "نوع المستخدم"
+
+#: oc-content/themes/sigma/user-profile.php:83
+#: oc-includes/osclass/gui/user-profile.php:61
+msgid "Cell phone"
+msgstr "الهاتف المحمول"
+
+#: oc-content/themes/sigma/user-profile.php:113
+#: oc-includes/osclass/gui/user-profile.php:91
+msgid "City area"
+msgstr "منطقة أو المدينة"
+
+#: oc-content/themes/sigma/user-profile.php:125
+#: oc-includes/osclass/gui/user-profile.php:103
+msgid "Website"
+msgstr "الموقع الالكتروني"
+
+#: oc-content/themes/sigma/user-public-profile.php:70
+#: oc-includes/osclass/gui/user-public-profile.php:69
+#, php-format
+msgid "<strong>Address:</strong> %1$s"
+msgstr "<strong>العنوان:</strong> %1$s"
+
+#: oc-content/themes/sigma/user-public-profile.php:73
+#: oc-includes/osclass/gui/user-public-profile.php:72
+#, php-format
+msgid "<strong>Location:</strong> %1$s"
+msgstr "<strong> الموقع: </ strong> %1$s"
+
+#: oc-content/themes/sigma/user-public-profile.php:78
+#: oc-includes/osclass/gui/user-public-profile.php:77
+msgid "User description"
+msgstr "نبذة عن المستخدم"
+
+#: oc-content/themes/sigma/user-public-profile.php:83
+#: oc-includes/osclass/gui/user-public-profile.php:82
+msgid "Latest listings"
+msgstr "أحدث المنتجات"
+
+#: oc-content/themes/sigma/user-public-sidebar.php:60
+msgid "Enter the words above"
+msgstr "أدخل الكلمات أعلاه"
+
+#: oc-content/themes/sigma/user-public-sidebar.php:62
+msgid "Help"
+msgstr "مساعدة"
+
+#: oc-content/themes/sigma/user-recover.php:42
+#: oc-includes/osclass/gui/user-recover.php:42
+msgid "Send me a new password"
+msgstr "ارسل لي كلمة سر جديدة"
+
+#: oc-content/themes/sigma/user-register.php:28
+#: oc-includes/osclass/gui/user-register.php:28
+msgid "Register an account for free"
+msgstr "تسجيل حساب جديد مجانا"
+
+#: oc-content/themes/sigma/user-register.php:54
+#: oc-includes/osclass/gui/user-register.php:64
+msgid "Repeat password"
+msgstr "اعد كلمة السر"
+
+#: oc-content/themes/sigma/user-register.php:58
+#: oc-includes/osclass/gui/user-register.php:68
+msgid "Passwords don't match"
+msgstr "كلمات المرور غير متطابقة"
+
+#: oc-content/themes/sigma/user-register.php:69
+msgid "Create account"
+msgstr "أنشئ حساب"
+
+#: oc-content/themes/sigma/user-sidebar.php:20
+#: oc-includes/osclass/gui/user-sidebar.php:20
+msgid "Display menu"
+msgstr "قائمة العرض"
+
+#: oc-content/themes/sigma/user-sidebar.php:28
+#: oc-includes/osclass/gui/user-sidebar.php:26
+msgid "Are you sure you want to delete your account?"
+msgstr "هل أنت متأكد أنك تريد حذف حسابك؟"
+
+#: oc-includes/osclass/gui/404.php:27
+msgid "Sorry but I can't find the page you're looking for"
+msgstr "نعتذر ولكن لايمكن العثور على الصفحة التي تبحث عنها"
+
+#: oc-includes/osclass/gui/404.php:29
+msgid "Let us help you, we have got a few tips for you to find it."
+msgstr "دعنا نساعدك، نحن لدينا بعض النصائح لك للعثور على بحثك."
+
+#: oc-includes/osclass/gui/404.php:32
+msgid "<strong>Search</strong> for it:"
+msgstr "<strong>حاول البحث مجدداً</strong>:"
+
+#: oc-includes/osclass/gui/404.php:41
+msgid "<strong>Look</strong> for it in the most popular categories."
+msgstr "<strong>ابحث</strong> في التصنيفات الاكثر شيوعاً."
+
+#: oc-includes/osclass/gui/footer.php:32 oc-includes/osclass/gui/header.php:45
+#, php-format
+msgid "Hi %s"
+msgstr "السلام عليكم يا %s"
+
+#: oc-includes/osclass/gui/footer.php:47 oc-includes/osclass/gui/header.php:57
+msgid "Publish your ad for free"
+msgstr "نشر إعلانك مجانا"
+
+#: oc-includes/osclass/gui/footer.php:69
+#, php-format
+msgid ""
+"This website is proudly using the <a title=\"Osclass web\" href=\"%s"
+"\">classifieds scripts</a> software <strong>Osclass</strong>"
+msgstr ""
+"يستخدم موقع الويب هذا بفخر برنامج <strong> Osclass </strong> <a title="
+"\"Osclass web\" href=\"%s\"> البرامج النصية للإعلانات المبوبة </a>"
+
+#: oc-includes/osclass/gui/footer.php:74
+msgid "Language:"
+msgstr "اللغة :"
+
+#: oc-includes/osclass/gui/head.php:56
+msgid "No file selected"
+msgstr "لم يتم اختيار اي ملف"
+
+#: oc-includes/osclass/gui/head.php:57
+msgid "Choose File"
+msgstr "اختر ملف"
+
+#: oc-includes/osclass/gui/item-contact.php:40
+msgid "To (seller)"
+msgstr "إلى (المعلن)"
+
+#: oc-includes/osclass/gui/item-contact.php:41
+msgid "Listing"
+msgstr "الإعلان"
+
+#: oc-includes/osclass/gui/item-contact.php:55
+msgid "Send message"
+msgstr "أرسل رسالة"
+
+#: oc-includes/osclass/gui/item-sidebar.php:67
+#, php-format
+msgid "Name: %s"
+msgstr "الاسم :  %s"
+
+#: oc-includes/osclass/gui/item-sidebar.php:70
+#, php-format
+msgid "E-mail: %s"
+msgstr "البريد الإلكتروني: %s"
+
+#: oc-includes/osclass/gui/item-sidebar.php:73
+#, php-format
+msgid "Phone: %s"
+msgstr "الهاتف: %s"
+
+#: oc-includes/osclass/gui/item.php:59
+#, php-format
+msgid "<strong class=\"publish\">Published date</strong>: %1$s"
+msgstr "<strong class=\"publish\">تأريخ النشر</strong>: %1$s"
+
+#: oc-includes/osclass/gui/main.php:39
+msgid "There aren't listings available at this moment"
+msgstr "لا يوجد اعلانات متوفرة في هذه اللحظة"
+
+#: oc-includes/osclass/gui/main.php:48 oc-includes/osclass/gui/search.php:87
+msgid "Grid"
+msgstr "شبكة"
+
+#: oc-includes/osclass/gui/main.php:63
+msgid "See all listings"
+msgstr "شاهد جميع المنتجات"
+
+#: oc-includes/osclass/gui/search_gallery.php:49
+#: oc-includes/osclass/gui/search_list.php:49
+msgid "Sponsored ad"
+msgstr "إعلان ممول"
+
+#: oc-includes/osclass/gui/user-register.php:80
+msgid "Create"
+msgstr "انشاء"

@@ -1,0 +1,590 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: User Rating Plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-08-02 11:26+0200\n"
+"PO-Revision-Date: 2022-03-15 17:34+0300\n"
+"Last-Translator: Miso <miso546@azet.sk>\n"
+"Language-Team: MB Themes <info@mb-themes.com>\n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-KeywordsList: __;_e;_m\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: languages/en_US\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: admin/configure.php:3 admin/configure.php:56 index.php:173 index.php:182
+#: index.php:213
+msgid "Configure"
+msgstr "Yapılandır"
+
+#: admin/configure.php:39
+msgid "Settings were successfully saved"
+msgstr "Ayarlar başarıyla kaydedildi"
+
+#: admin/configure.php:43
+msgid "Rating options were successfully saved"
+msgstr "Değerlendirme seçenekleri başarıyla kaydedildi"
+
+#: admin/configure.php:47
+msgid "User ranks were successfully saved"
+msgstr "Kullanıcı değerlendirmeleri başarıyla kaydedildi"
+
+#: admin/configure.php:68
+msgid "Require validation"
+msgstr "Zorunlu alan"
+
+#: admin/configure.php:71
+msgid "Each rating must be validated by admin before it is shown."
+msgstr ""
+"Her değerlendirme, gösterilmeden önce yönetici tarafından doğrulanmalıdır."
+
+#: admin/configure.php:75
+msgid "Only logged users"
+msgstr "Sadece giriş yapan kullanıcılar"
+
+#: admin/configure.php:78
+msgid "When enabled, only logged in users can rate other users."
+msgstr ""
+"Etkinleştirildiğinde, yalnızca oturum açmış kullanıcılar diğer kullanıcıları "
+"değerlendirebilir."
+
+#: admin/configure.php:82
+msgid "Show ratings in user account"
+msgstr "Kullanıcı hesabında değerlendirmeleri göster"
+
+#: admin/configure.php:85
+msgid ""
+"When enabled, link to show existing ratings of user is visible in user "
+"account sidebar."
+msgstr ""
+"Etkinleştirildiğinde, kullanıcı hesabı kenar çubuğunda mevcut kullanıcı "
+"değerlendirmelerini gösteren bağlantı görünür."
+
+#: admin/configure.php:89
+msgid "Hook buttons"
+msgstr "Kanca düğmeleri"
+
+#: admin/configure.php:92
+msgid ""
+"When enabled, all buttons (show rating, add rating) are automatically hooked "
+"to listing detail (item_detail hook)."
+msgstr ""
+"Etkinleştirildiğinde, tüm düğmeler (değerlendirmeyi göster, değerlendirme "
+"ekle) otomatik olarak liste ayrıntılarına (ilan_detay kancası) bağlanır."
+
+#: admin/configure.php:96
+msgid "Monocolor stars"
+msgstr "Tek renkli yıldızlar"
+
+#: admin/configure.php:99
+msgid ""
+"When enabled, only monocolor stars are used (yellow). Star color will not be "
+"influenced by overall rating (red to green)."
+msgstr ""
+"Etkinleştirildiğinde, yalnızca tek renkli yıldızlar kullanılır (sarı). "
+"Yıldız rengi genel değerlendirmeden etkilenmeyecektir (kırmızıdan yeşile)."
+
+#: admin/configure.php:103
+msgid "Upscale rating bars"
+msgstr "Yükselen değerlendirme çubukları"
+
+#: admin/configure.php:106
+msgid ""
+"When enabled, rating bars of chart on rating page will be upscaled to 100% "
+"in order to maximize usage of chart area. Enabled by default."
+msgstr ""
+"Etkinleştirildiğinde, grafik alanının kullanımını en üst düzeye çıkarmak "
+"için değerlendirme sayfasındaki grafiğin değerlendirme çubukları %100'e "
+"yükseltilecektir. Varsayılan olarak etkindir."
+
+#: admin/configure.php:111 admin/configure.php:166 admin/configure.php:240
+msgid "Save"
+msgstr "Kaydet"
+
+#: admin/configure.php:113 admin/configure.php:168 admin/configure.php:242
+msgid "You are on demo site, this option is not available there"
+msgstr "Demo sitesindesiniz, bu seçenek orada mevcut değil"
+
+#: admin/configure.php:113 admin/configure.php:168 admin/configure.php:242
+msgid "Save (demo - disabled)"
+msgstr "Kaydet(demo-pasif)"
+
+#: admin/configure.php:124
+msgid "Option configuration"
+msgstr "Seçenek yapılandırması"
+
+#: admin/configure.php:134
+msgid "Select options that are available for rating"
+msgstr "Değerlendirme için mevcut olan seçenekleri seçin"
+
+#: admin/configure.php:138 functions.php:199 functions.php:234
+msgid "Communication"
+msgstr "İletişim"
+
+#: admin/configure.php:143 functions.php:203 functions.php:238
+msgid "Delivery"
+msgstr "Sipariş"
+
+#: admin/configure.php:148 functions.php:207 functions.php:242
+msgid "Quality"
+msgstr "Kalite"
+
+#: admin/configure.php:153 functions.php:211 functions.php:246
+msgid "Speed"
+msgstr "Hız"
+
+#: admin/configure.php:158 functions.php:215 functions.php:250
+msgid "Recommend"
+msgstr "Tavsiye et"
+
+#: admin/configure.php:179
+msgid "User ranks configuration"
+msgstr "Kullanıcı sıralaması yapılandırması"
+
+#: admin/configure.php:188
+msgid "Registered user"
+msgstr "Kayıtlı kullanıcı"
+
+#: admin/configure.php:192 admin/configure.php:218 admin/rating.php:121
+#: admin/rating.php:237
+msgid "ID"
+msgstr "ID"
+
+#: admin/configure.php:193 admin/configure.php:219
+msgid "Rank"
+msgstr "Değerlendirne"
+
+#: admin/configure.php:194 admin/configure.php:220
+msgid "Min. average rating"
+msgstr "Min. ortalama değerlendirme"
+
+#: admin/configure.php:195 admin/configure.php:221
+msgid "Min. rating count"
+msgstr "Min. değerlendirme sayısı"
+
+#: admin/configure.php:196
+msgid "Registered at least (days)"
+msgstr "Kayıtlı en az (gün)"
+
+#: admin/configure.php:214 user/new.php:58 user/rating.php:60
+msgid "Unregistered user"
+msgstr "Kayıtsız kullanıcı"
+
+#: admin/configure.php:252
+msgid "Plugin Setup"
+msgstr "Eklenti Kurulumu"
+
+#: admin/configure.php:255
+msgid ""
+"No theme modification are required to use all functions of plugin, but you "
+"may want to customize positions of buttons"
+msgstr ""
+"Eklentinin tüm işlevlerini kullanmak için herhangi bir tema değişikliği "
+"gerekmez, ancak düğmelerin konumlarını özelleştirmek isteyebilirsiniz."
+
+#: admin/configure.php:258
+msgid ""
+"To add link to leave rating on user, place following code to theme files"
+msgstr ""
+"Bağlantı eklemek için kullanıcıya puan bırakın,tema dosyalarına aşağıdaki "
+"kodu yerleştirin"
+
+#: admin/configure.php:267
+msgid "To add link to show rating of user, place following code to theme files"
+msgstr ""
+"Kullanıcı değerlendirmesini göstermek için bağlantı eklemek için aşağıdaki "
+"kodu tema dosyalarına yerleştirin"
+
+#: admin/configure.php:276
+msgid ""
+"To add user rating status (stars and rating) with click action to show "
+"rating of this user, place following code to theme files"
+msgstr ""
+"Bu kullanıcının derecelendirmesini göstermek için tıklama eylemiyle "
+"kullanıcı derecelendirme durumu (yıldızlar ve derecelendirme) eklemek için "
+"aşağıdaki kodu tema dosyalarına yerleştirin"
+
+#: admin/configure.php:285
+msgid "To add user average rating score, place following code to theme files"
+msgstr ""
+"Kullanıcı ortalama derecelendirme puanı eklemek için aşağıdaki kodu tema "
+"dosyalarına yerleştirin"
+
+#: admin/configure.php:294
+msgid "To add user rating level, place following code to theme files"
+msgstr ""
+"Kullanıcı derecelendirme düzeyi eklemek için aşağıdaki kodu tema dosyalarına "
+"yerleştirin"
+
+#: admin/configure.php:306
+msgid "Help"
+msgstr "Yardım"
+
+#: admin/configure.php:309
+msgid ""
+"Enable to require validation of each rating by admin. Then, rating is shown "
+"and counted just in case admin has validated it."
+msgstr ""
+"Her derecelendirmenin yönetici tarafından doğrulanmasını zorunlu kılmak için "
+"etkinleştirin. Ardından, yöneticinin onaylaması durumunda derecelendirme "
+"gösterilir ve sayılır."
+
+#: admin/configure.php:310
+msgid "Enable what options are available on user rating form."
+msgstr ""
+"Kullanıcı değerlendirme formunda hangi seçeneklerin mevcut olduğunu "
+"etkinleştirin."
+
+#: admin/configure.php:311
+msgid ""
+"Enable to allow leave rating only to logged in users. Users not logged in "
+"will be requested to login to be able to leave rating."
+msgstr ""
+
+#: admin/configure.php:312
+msgid "Enable to show link with user ratings in user account left sidebar."
+msgstr ""
+"Kullanıcı hesabının sol kenar çubuğunda kullanıcı değerendirmeleriyle "
+"bağlantıyı göstermeyi etkinleştirin."
+
+#: admin/configure.php:313
+msgid ""
+"When enabled, osclass hooks are used to show Add / Show links to listing "
+"page and no modifications of theme are required."
+msgstr ""
+"Etkinleştirildiğinde, listeleme sayfasına Bağlantı Ekle / Göster'i göstermek "
+"için osclass kancaları kullanılır ve temada herhangi bir değişiklik "
+"yapılması gerekmez."
+
+#: admin/rating.php:3 index.php:25 index.php:32 index.php:34
+msgid "Ratings"
+msgstr "Değerlendirmeler"
+
+#: admin/rating.php:21 admin/rating.php:66
+msgid "Rating(s) with following IDs were approved:"
+msgstr "Aşağıdaki ID'ye sahip değerlendirmeler onaylandı:"
+
+#: admin/rating.php:38 admin/rating.php:88
+msgid "Rating(s) with following IDs were removed:"
+msgstr "Aşağıdaki ID'ye sahip değerlendirmeler kaldırıldı:"
+
+#: admin/rating.php:49 admin/rating.php:195
+msgid "Approve Selected"
+msgstr "Seçilenleri Onayla"
+
+#: admin/rating.php:72 admin/rating.php:198 admin/rating.php:317
+msgid "Remove Selected"
+msgstr "Seçilenleri Kaldır"
+
+#: admin/rating.php:100
+msgid "Ratings to be Validated"
+msgstr "Onaylanacak Değerlendirmeler"
+
+#: admin/rating.php:115 admin/rating.php:231
+msgid "Only latest 100 ratings are shown!"
+msgstr "Yalnızca en son 100 değerlendirme gösterilir!"
+
+#: admin/rating.php:122 admin/rating.php:238 index.php:183 index.php:214
+msgid "Rating"
+msgstr "Değerlendirme"
+
+#: admin/rating.php:123 admin/rating.php:239
+msgid "User"
+msgstr "Kullanıcı"
+
+#: admin/rating.php:124 admin/rating.php:240
+msgid "Comment"
+msgstr "Yorum"
+
+#: admin/rating.php:125 admin/rating.php:241
+msgid "Status"
+msgstr "Durum"
+
+#: admin/rating.php:135 admin/rating.php:144 admin/rating.php:251
+#: admin/rating.php:261
+msgid "Registered"
+msgstr "Kayıtlı"
+
+#: admin/rating.php:138 admin/rating.php:147 admin/rating.php:254
+#: admin/rating.php:264
+msgid "Unregistered"
+msgstr "Kayıtsız"
+
+#: admin/rating.php:146 admin/rating.php:263
+msgid "Unknown"
+msgstr "Bilinmiyor"
+
+#: admin/rating.php:150 admin/rating.php:267
+msgid "Rated user"
+msgstr "Değerlendirilmiş kullanıcı"
+
+#: admin/rating.php:151 admin/rating.php:154 admin/rating.php:268
+#: admin/rating.php:271
+msgid "Name"
+msgstr "İsim"
+
+#: admin/rating.php:152 admin/rating.php:155 admin/rating.php:269
+#: admin/rating.php:272
+msgid "Type"
+msgstr "Tip"
+
+#: admin/rating.php:153 admin/rating.php:270
+msgid "Rating left by"
+msgstr "Tarafından bırakılan değerlendirme"
+
+#: admin/rating.php:156 admin/rating.php:273
+msgid "Date"
+msgstr "Tarih"
+
+#: admin/rating.php:163 admin/rating.php:282
+msgid "Pending"
+msgstr "Beklemede"
+
+#: admin/rating.php:166 admin/rating.php:285 admin/rating.php:289
+msgid "Valid"
+msgstr "Gerçerli"
+
+#: admin/rating.php:170 admin/rating.php:293 user/rating.php:217
+msgid "No comment"
+msgstr "Yorum yok"
+
+#: admin/rating.php:184
+msgid "Approve"
+msgstr "Onay"
+
+#: admin/rating.php:187 admin/rating.php:308
+msgid "Remove"
+msgstr "Kaldır"
+
+#: admin/rating.php:187 admin/rating.php:308
+msgid "Are you sure you want to remove this rating? Action cannot be undone"
+msgstr ""
+"Bu değerlendirmeyi kaldırmak istediğinizden emin misiniz? İşlem geri alınamaz"
+
+#: admin/rating.php:198 admin/rating.php:317
+msgid ""
+"Are you sure you want to remove selected ratings? Action cannot be undone"
+msgstr ""
+"Seçili değerlendirmeleri kaldırmak istediğinizden emin misiniz? İşlem geri "
+"alınamaz"
+
+#: admin/rating.php:204
+msgid "No ratings waiting for validation"
+msgstr "Doğrulama için bekleyen değerlendirme yok"
+
+#: admin/rating.php:216
+msgid "Validated Ratings"
+msgstr "Doğrulanmış Değerlendirmeler"
+
+#: admin/rating.php:323
+msgid "No validated ratings yet"
+msgstr "Henüz onaylanmış değerlendirme yok"
+
+#: functions.php:82
+msgid "Superhero"
+msgstr "Süper Kahraman"
+
+#: functions.php:86 functions.php:102
+msgid "Captain"
+msgstr "Kaptan"
+
+#: functions.php:90 functions.php:106
+msgid "Conqueror"
+msgstr "Fatih"
+
+#: functions.php:94 functions.php:110 functions.php:164
+msgid "Novice"
+msgstr "Acemi"
+
+#: functions.php:231
+msgid "Overall"
+msgstr "Etraflı"
+
+#: functions.php:283 functions.php:364
+msgid "Rate this user"
+msgstr "Kullanıcıyı değerlendir"
+
+#: functions.php:293
+msgid "Average rating"
+msgstr "Değerlendirme Puanı"
+
+#: functions.php:371
+msgid "Show rating"
+msgstr "Değerlendirmeyi göster"
+
+#: functions.php:382
+msgid "Click to show user reviews"
+msgstr "Kullanıcı incelemelerini göstermek için tıklayın"
+
+#: functions.php:403
+msgid "minute ago"
+msgstr "dakika önce"
+
+#: functions.php:405
+#, php-format
+msgid "%d minutes ago"
+msgstr "%d dakika önce"
+
+#: functions.php:407
+#, php-format
+msgid "%d hour ago"
+msgstr "%d saat önce"
+
+#: functions.php:409
+#, php-format
+msgid "%d hours ago"
+msgstr "%d saat önce"
+
+#: functions.php:411
+#, php-format
+msgid "%d day ago"
+msgstr "%d gün önce"
+
+#: functions.php:413
+#, php-format
+msgid "%d days ago"
+msgstr "%d gün önce"
+
+#: functions.php:415
+#, php-format
+msgid "%d week ago"
+msgstr "%d hafta önce"
+
+#: functions.php:417
+#, php-format
+msgid "%d weeks ago"
+msgstr "%d hafta önce"
+
+#: functions.php:419
+#, php-format
+msgid "%d month ago"
+msgstr "%d ay önce"
+
+#: functions.php:421
+#, php-format
+msgid "%d months ago"
+msgstr "%d ay önce"
+
+#: functions.php:423
+#, php-format
+msgid "%d year ago"
+msgstr "%d yıl önce"
+
+#: functions.php:425
+#, php-format
+msgid "%d years ago"
+msgstr "%d yıl önce"
+
+#: index.php:83
+msgid "New Rating"
+msgstr "Yeni Değerlendirme"
+
+#: index.php:83
+msgid "New Ratings"
+msgstr "Yeni Değerlendirmeler"
+
+#: index.php:198
+msgid "Report Bug"
+msgstr "Hata Bildir"
+
+#: index.php:199
+msgid "Support Forums"
+msgstr "Yardım Forumları"
+
+#: index.php:200
+msgid "Contact Us"
+msgstr "Bize Ulaşın"
+
+#: user/new.php:50 user/rating.php:52
+#, php-format
+msgid "Registered on %s"
+msgstr "%s Tane kaydedildi"
+
+#: user/new.php:70
+msgid "This is your profile, you cannot rate yourself."
+msgstr "Bu senin profilin, kendini değerlendiremezsin."
+
+#: user/new.php:74
+msgid "Leave a rating"
+msgstr "Değerlendirin"
+
+#: user/new.php:86 user/rating.php:89
+msgid "Profile"
+msgstr "Profil"
+
+#: user/new.php:98
+#, php-format
+msgid "Overall experience with %s"
+msgstr "%s ile genel deneyim"
+
+#: user/new.php:130
+msgid "Would you like to add something?"
+msgstr "Bir şey eklemek ister misin?"
+
+#: user/new.php:134
+msgid "Submit"
+msgstr "Gönder"
+
+#: user/new.php:141
+msgid "Your rating was successfully submitted!"
+msgstr "Değerlendirmeniz başarıyla gönderildi!"
+
+#: user/new.php:144
+msgid "Rating will be published as soon as our team validates it."
+msgstr ""
+"Değerlendirme, ekibimiz tarafından onaylanır onaylanmaz yayınlanacaktır."
+
+#: user/new.php:152
+msgid "Whoops, there was some error. Please try to add rating later."
+msgstr ""
+"Hata, bir hata oluştu. Lütfen daha sonra derecelendirme eklemeyi deneyin."
+
+#: user/new.php:160
+msgid "You have already rated this user."
+msgstr "Bu kullanıcıyı zaten değerlendirdiniz."
+
+#: user/new.php:168
+msgid "Only logged in users can leave rating."
+msgstr "Yalnızca oturum açmış kullanıcılar değerlendirme yapabilir."
+
+#: user/rating.php:35 user/rating.php:194
+msgid "Anonymous"
+msgstr "Anonim"
+
+#: user/rating.php:71
+msgid "User has not been recognized"
+msgstr "Kullanıcı tanınmadı"
+
+#: user/rating.php:75
+#, php-format
+msgid "%s's rating"
+msgstr "Değerlendirilen: %s "
+
+#: user/rating.php:106
+#, php-format
+msgid "based on %s reviews"
+msgstr "%s incelemeye göre"
+
+#: user/rating.php:114
+msgid "User has not been rated yet"
+msgstr "Kullanıcı henüz değerlendirilmedi"
+
+#: user/rating.php:164
+#, php-format
+msgid "%s star"
+msgstr "%s yıldız"
+
+#: user/rating.php:164
+#, php-format
+msgid "%s stars"
+msgstr "%s yıldız"
+
+#: user/rating.php:168
+msgid "rating(s)"
+msgstr "değerlendirme"

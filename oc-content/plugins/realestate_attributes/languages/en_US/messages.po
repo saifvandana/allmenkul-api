@@ -1,0 +1,288 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Real estate attributes\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-01 13:43+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Juan Ramón <juanramon@osclass.org>\n"
+"Language-Team: OSClass <info@osclass.org>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: conf.php:58 index.php:304 index.php:310
+msgid "Property types"
+msgstr ""
+
+#: conf.php:85
+msgid "Delete"
+msgstr ""
+
+#: conf.php:91
+msgid "Edit"
+msgstr ""
+
+#: conf.php:98
+msgid "Add new property types"
+msgstr ""
+
+#: conf.php:119
+msgid "Add new"
+msgstr ""
+
+#: conf.php:130
+msgid "Warning"
+msgstr ""
+
+#: conf.php:132
+msgid ""
+"Deleting property types may end in errors. Some of those property types "
+"could be attached to some actual items"
+msgstr ""
+
+#: helper.php:13 item_edit.php:11 search_form.php:108
+msgid "For rent"
+msgstr ""
+
+#: helper.php:14 item_edit.php:12 search_form.php:109
+msgid "For sale"
+msgstr ""
+
+#: helper.php:17 item_edit.php:9 search_form.php:104 view.php:75
+msgid "Type"
+msgstr ""
+
+#: helper.php:23 item_edit.php:25 item_edit.php:42 search_form.php:117
+#: view.php:76
+msgid "Property type"
+msgstr ""
+
+#: helper.php:29
+msgid "Num. Rooms"
+msgstr ""
+
+#: helper.php:35
+msgid "Num. Bathrooms"
+msgstr ""
+
+#: helper.php:41 item_edit.php:93
+msgid "New construction"
+msgstr ""
+
+#: helper.php:42 item_edit.php:94
+msgid "To renovate"
+msgstr ""
+
+#: helper.php:43 item_edit.php:95
+msgid "Good condition"
+msgstr ""
+
+#: helper.php:46 item_edit.php:91
+msgid "Status"
+msgstr ""
+
+#: helper.php:52
+msgid "Square Meters"
+msgstr ""
+
+#: helper.php:58
+msgid "Square Meters (total)"
+msgstr ""
+
+#: helper.php:64
+msgid "Num. Floors"
+msgstr ""
+
+#: helper.php:70 item_edit.php:113
+msgid "Construction Year"
+msgstr ""
+
+#: helper.php:76 item_edit.php:157
+msgid "Condition"
+msgstr ""
+
+#: helper.php:82 helper.php:88 item_edit.php:166
+msgid "Agency"
+msgstr ""
+
+#: helper.php:94 item_edit.php:175
+msgid "Floor Number"
+msgstr ""
+
+#: helper.php:100 item_edit.php:257 item_edit.php:282
+msgid "Transport"
+msgstr ""
+
+#: helper.php:106 item_edit.php:266 item_edit.php:291
+msgid "Zone"
+msgstr ""
+
+#: helper.php:113 item_edit.php:187 search_form.php:198
+msgid "Heating"
+msgstr ""
+
+#: helper.php:119
+msgid "Air Condition"
+msgstr ""
+
+#: helper.php:125 item_edit.php:203 search_form.php:204
+msgid "Elevator"
+msgstr ""
+
+#: helper.php:131 item_edit.php:211 search_form.php:207
+msgid "Terrace"
+msgstr ""
+
+#: helper.php:137 item_edit.php:219 search_form.php:210
+msgid "Parking"
+msgstr ""
+
+#: helper.php:143 item_edit.php:227 search_form.php:213
+msgid "Furnished"
+msgstr ""
+
+#: helper.php:149 item_edit.php:235 search_form.php:216
+msgid "New"
+msgstr ""
+
+#: helper.php:155
+msgid "By Owner"
+msgstr ""
+
+#: helper.php:165
+msgid "Real Estate Details"
+msgstr ""
+
+#: helper.php:183 item_edit.php:179 search_form.php:195 view.php:83
+msgid "Other characteristics"
+msgstr ""
+
+#: index.php:301 index.php:308
+msgid "Realestate plugin"
+msgstr ""
+
+#: index.php:303 index.php:309
+msgid "Configure plugin"
+msgstr ""
+
+#: index.php:305 index.php:311
+msgid "View options"
+msgstr ""
+
+#: item_edit.php:1 search_form.php:101
+msgid "Realestate attributes"
+msgstr ""
+
+#: item_edit.php:65
+msgid "Num. of rooms"
+msgstr ""
+
+#: item_edit.php:78
+msgid "Num. of bathrooms"
+msgstr ""
+
+#: item_edit.php:104
+msgid "Square meters"
+msgstr ""
+
+#: item_edit.php:122
+msgid "Square meters (total)"
+msgstr ""
+
+#: item_edit.php:131
+msgid "Num. of floors"
+msgstr ""
+
+#: item_edit.php:144
+msgid "Num. of garages (place for a car = one garage)"
+msgstr ""
+
+#: item_edit.php:195 search_form.php:201
+msgid "Air condition"
+msgstr ""
+
+#: item_edit.php:243 search_form.php:219
+msgid "By owner"
+msgstr ""
+
+#: search_form.php:107
+msgid "Undefined"
+msgstr ""
+
+#: search_form.php:120
+msgid "Select a property type"
+msgstr ""
+
+#: search_form.php:131 view.php:77
+msgid "Num. Floors Range"
+msgstr ""
+
+#: search_form.php:141 view.php:78
+msgid "Rooms Range"
+msgstr ""
+
+#: search_form.php:152 view.php:79
+msgid "Bathrooms Range"
+msgstr ""
+
+#: search_form.php:163 view.php:80
+msgid "Garages Range"
+msgstr ""
+
+#: search_form.php:174 view.php:81
+msgid "Construction year Range"
+msgstr ""
+
+#: search_form.php:185 view.php:82
+msgid "Square Meters Range"
+msgstr ""
+
+#: view.php:27 view.php:34
+msgid "Settings saved!"
+msgstr ""
+
+#: view.php:56
+msgid "Display options"
+msgstr ""
+
+#: view.php:57
+msgid "Display realestate attributes in listing page..."
+msgstr ""
+
+#: view.php:58
+msgid "After item description"
+msgstr ""
+
+#: view.php:59
+msgid "Manually"
+msgstr ""
+
+#: view.php:60 view.php:86
+msgid "Update options"
+msgstr ""
+
+#: view.php:68
+msgid "Filters"
+msgstr ""
+
+#: view.php:69
+msgid "Show filters in search page"
+msgstr ""
+
+#: view.php:70
+msgid "Show all filters"
+msgstr ""
+
+#: view.php:71
+msgid "Hide all filters"
+msgstr ""
+
+#: view.php:72
+msgid "Show only specified filters"
+msgstr ""

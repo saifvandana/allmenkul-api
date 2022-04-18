@@ -1,0 +1,876 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Banners & Advertisement Plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-09-09 08:50+0200\n"
+"PO-Revision-Date: 2022-03-15 14:17+0300\n"
+"Last-Translator: Miso <miso546@azet.sk>\n"
+"Language-Team: MB Themes <info@mb-themes.com>\n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-KeywordsList: __;_e;_m\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: languages/en_US\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: admin/advert_edit.php:3
+msgid "Advert"
+msgstr "İlan"
+
+#: admin/advert_edit.php:11
+msgid "Advert successfully created."
+msgstr "İlan başarıyla oluşturuldu."
+
+#: admin/advert_edit.php:14
+msgid "Advert successfully updated."
+msgstr "İlan başarıyla güncellendi."
+
+#: admin/advert_edit.php:36
+msgid "Extension not allowed, only allowed extension are jpg, png or gif!"
+msgstr ""
+"Uzantıya izin verilmez, yalnızca izin verilen uzantılar jpg, png veya "
+"gif'tir!"
+
+#: admin/advert_edit.php:43
+msgid "Advert image uploaded successfully."
+msgstr "İlan görseli başarıyla yüklendi."
+
+#: admin/advert_edit.php:45
+#, php-format
+msgid "There was error when uploading image: %s"
+msgstr "Görsel yüklenirken hata oluştu: %s"
+
+#: admin/advert_edit.php:74
+msgid "Advert image has been removed."
+msgstr "İlan görseli kaldırılmıştır."
+
+#: admin/advert_edit.php:89
+msgid "Advert successfully removed"
+msgstr "İlan başarıyla kaldırıldı"
+
+#: admin/advert_edit.php:99
+msgid "Advert configuration"
+msgstr "İlan yapılandırması"
+
+#: admin/advert_edit.php:110 admin/adverts.php:21 admin/configure.php:41
+msgid ""
+"Advert is children/subgroup of banner. Advert is shown in front-office via "
+"banner."
+msgstr ""
+"İlan, banner'ın çocukları/alt grubudur. İlan, ön büroda banner aracılığıyla "
+"gösterilir."
+
+#: admin/advert_edit.php:111 admin/adverts.php:22
+msgid "Advert can be interpreted as 1 page in newspaper (banner)."
+msgstr "İlan gazetede (banner) 1 sayfa olarak yorumlanabilir."
+
+#: admin/advert_edit.php:112 admin/adverts.php:23
+msgid ""
+"In order to make advert visible in front-office, assign/link it to one or "
+"more banners."
+msgstr ""
+"İlanı ön büroda görünür kılmak için, onu bir veya daha fazla banner'a atayın/"
+"bağlayın."
+
+#: admin/advert_edit.php:113 admin/adverts.php:24 admin/banner_edit.php:91
+#: admin/banners.php:23
+msgid ""
+"One banner can contain one or more adverts. One advert can be part of one or "
+"more banners."
+msgstr ""
+"Bir banner bir veya daha fazla ilan içerebilir. Bir ilan, bir veya daha "
+"fazla banner'ın parçası olabilir."
+
+#: admin/advert_edit.php:118
+msgid "Your client can review banner in front-office on following URL:"
+msgstr "Müşteriniz, ön bürodaki banner'ı aşağıdaki URL'de inceleyebilir:"
+
+#: admin/advert_edit.php:124 admin/adverts.php:32 admin/adverts.php:120
+#: admin/banner_edit.php:116 admin/banners.php:35 admin/banners.php:93
+#: form/advert.php:35
+msgid "Type"
+msgstr "Tip"
+
+#: admin/advert_edit.php:126 form/advert.php:39
+msgid "HTML Advert"
+msgstr "İlan HTML'i"
+
+#: admin/advert_edit.php:127 form/advert.php:41
+msgid "Image Advert"
+msgstr "İlan Görseli"
+
+#: admin/advert_edit.php:128 form/advert.php:43
+msgid "Adsense Advert"
+msgstr "İlan Adsense'i"
+
+#: admin/advert_edit.php:131 admin/advert_edit.php:291
+#: admin/banner_edit.php:185
+msgid "Based on type of advert, different fields are available."
+msgstr "İlan türüne göre farklı alanlar mevcuttur."
+
+#: admin/advert_edit.php:135 admin/adverts.php:31 admin/banner_edit.php:109
+msgid "Name"
+msgstr "Ad"
+
+#: admin/advert_edit.php:138 admin/banner_edit.php:112
+msgid "Name is used just for internal purpose."
+msgstr "Ad sadece dahili amaç için kullanılır."
+
+#: admin/advert_edit.php:142
+msgid "Client Key"
+msgstr "İstemci Anahtarı"
+
+#: admin/advert_edit.php:146
+msgid ""
+"Using this key your client can see stats of advert. Leave blank if you do "
+"not want to share data with external clients."
+msgstr ""
+"Bu anahtarı kullanarak müşteriniz ilan istatistiklerini görebilir. Verileri "
+"harici istemcilerle paylaşmak istemiyorsanız boş bırakın."
+
+#: admin/advert_edit.php:149
+msgid "Client URL"
+msgstr "Müşteri URL'si"
+
+#: admin/advert_edit.php:155
+msgid "On Click URL"
+msgstr "URL'ye Tıklayınız"
+
+#: admin/advert_edit.php:158
+msgid ""
+"If not defined directly in advert, specify target URL where customers will "
+"be redirected after click on advert."
+msgstr ""
+"Doğrudan ilanda tanımlanmadıysa, müşterilerin ilanı tıkladıktan sonra "
+"yönlendirileceği hedef URL'yi belirtin"
+
+#: admin/advert_edit.php:163
+msgid "Adsense Code"
+msgstr "Adsense Kodu"
+
+#: admin/advert_edit.php:164
+msgid "HTML Code"
+msgstr "HTML Kodu"
+
+#: admin/advert_edit.php:169
+msgid "Place here advert code, adsense code or any other code in HTML format."
+msgstr ""
+"Buraya ilan kodunu, adsense kodunu veya HTML biçimindeki başka bir kodu "
+"yerleştirin"
+
+#: admin/advert_edit.php:173 admin/adverts.php:56 admin/banners.php:113
+msgid "Image"
+msgstr "Görsel"
+
+#: admin/advert_edit.php:183
+msgid "Upload image"
+msgstr "Görsel yükle"
+
+#: admin/advert_edit.php:183
+msgid "Replace image"
+msgstr "Görseli değiştir"
+
+#: admin/advert_edit.php:187
+msgid "Allowed extensions"
+msgstr "İzin verilen uzantılar"
+
+#: admin/advert_edit.php:194
+msgid "Price for 1 click"
+msgstr "1 tıklama fiyatı"
+
+#: admin/advert_edit.php:197
+msgid ""
+"How much cost 1 click on banner. This amount will be substracted from budget."
+msgstr ""
+"Banner'a 1 tıklamanın maliyeti ne kadar. Bu tutar bütçeden düşülecektir."
+
+#: admin/advert_edit.php:201
+msgid "Price for 1 view"
+msgstr "1 seyir için fiyat"
+
+#: admin/advert_edit.php:204
+msgid ""
+"How much cost 1 view of banner. This amount will be substracted from budget."
+msgstr ""
+"1 banner görüntüleme ne kadara mal olur. Bu tutar bütçeden düşülecektir."
+
+#: admin/advert_edit.php:208 admin/adverts.php:33 admin/banners.php:94
+#: form/advert.php:75
+msgid "Budget"
+msgstr "Bütçe"
+
+#: admin/advert_edit.php:211
+msgid ""
+"Price for views and clicks are substracted from budget. When budget is "
+"spent, advert is not active anymore."
+msgstr ""
+"Görüntüleme ve tıklama fiyatları bütçeden çıkarılır. Bütçe harcandığında, "
+"reklam artık aktif değildir."
+
+#: admin/advert_edit.php:215
+msgid "Expiration date"
+msgstr "Son kullanma tarihi"
+
+#: admin/advert_edit.php:217
+msgid "When expiration date is reached, advert is not active anymore."
+msgstr "Son kullanma tarihine ulaşıldığında, ilan artık aktif değildir."
+
+#: admin/advert_edit.php:221
+msgid "Size"
+msgstr "Boyut"
+
+#: admin/advert_edit.php:223 admin/advert_edit.php:228
+msgid "px or %"
+msgstr "piksel veya %"
+
+#: admin/advert_edit.php:230
+msgid "Value must be px or %. I.e.: 100%, 50%, 240px, 120px..."
+msgstr "Değer px veya % olmalıdır. Yani:100%, 50%, 240px, 120px.."
+
+#: admin/advert_edit.php:232
+msgid ""
+"Only pixels or percentage value. No whitespace allowed. Leave blank to use "
+"default. Example: 100%, 50%, 240px, 120px... Invalid: 50, 100, 20vh, 10rem, "
+"5pt, ..."
+msgstr ""
+"Yalnızca piksel veya yüzde değeri. Boşluğa izin verilmez. Varsayılanı "
+"kullanmak için boş bırakın. Örnek:100%, 50%, 240px, 120px... Geçersiz 50, "
+"100, 20vh, 10rem, 5pt, ..."
+
+#: admin/advert_edit.php:236
+msgid "Category"
+msgstr "Kategori"
+
+#: admin/advert_edit.php:245
+msgid "If not category selected, advert is shown in all categories."
+msgstr "Kategori seçilmediyse tüm kategorilerde ilan gösterilir."
+
+#: admin/advert_edit.php:250 admin/banner_edit.php:3
+msgid "Banner"
+msgstr "Banner"
+
+#: admin/advert_edit.php:260
+msgid "No banners created yet"
+msgstr "Henüz banner oluşturulmadı"
+
+#: admin/advert_edit.php:265
+msgid ""
+"Select in which banners will be this advert visible. You should select at "
+"least 1, as each advert is shown via banner."
+msgstr ""
+"Bu ilanın hangi bannerlarda görüneceğini seçin. Her reklam banner üzerinden "
+"gösterildiği için en az 1 tane seçmelisiniz."
+
+#: admin/advert_edit.php:266 admin/banners.php:177
+msgid "Create a new banner"
+msgstr "Yeni bir banner oluştur"
+
+#: admin/advert_edit.php:274 admin/banner_edit.php:168
+msgid "Create"
+msgstr "Oluştur"
+
+#: admin/advert_edit.php:276 admin/banner_edit.php:170
+msgid "Update"
+msgstr "Güncelle"
+
+#: admin/advert_edit.php:288 admin/banner_edit.php:182 admin/configure.php:108
+msgid "Help"
+msgstr "Yardım"
+
+#: admin/advert_edit.php:292 admin/banner_edit.php:186
+msgid ""
+"Name of advert is used only for internal use, to help you easily identify ad "
+"you are looking for."
+msgstr ""
+"İlanın adı, aradığınız ilanı kolayca tanımlamanıza yardımcı olmak için "
+"yalnızca dahili kullanım için kullanılır."
+
+#: admin/advert_edit.php:293 admin/banner_edit.php:187
+msgid ""
+"Client key is used to share advert stats with your client (views, clicks, "
+"remaining budget...)."
+msgstr ""
+"İstemci anahtarı, banner istatistiklerini müşterinizle paylaşmak için "
+"kullanılır (görüntülemeler, tıklamalar, kalan bütçe...)."
+
+#: admin/advert_edit.php:294 admin/banner_edit.php:188
+msgid ""
+"Define onclick URL if you want to redirect your customer to specific page "
+"after clicking on advert."
+msgstr ""
+"Reklamı tıkladıktan sonra müşterinizi belirli bir sayfaya yönlendirmek "
+"istiyorsanız onclick URL'sini tanımlayın."
+
+#: admin/advert_edit.php:295 admin/banner_edit.php:189
+msgid ""
+"HTML/Adsense code is used to specify code for your advert. In both cases "
+"code in HTML format must be used (no PHP or so)."
+msgstr ""
+"HTML/Adsense kodu, reklamınızın kodunu belirtmek için kullanılır. Her iki "
+"durumda da HTML biçimindeki kod kullanılmalıdır (PHP veya benzeri yok)."
+
+#: admin/advert_edit.php:296 admin/banner_edit.php:190
+msgid ""
+"You can upload 1 image per advert in format .jpg, .png or .gif. Size of "
+"image is limited by your PHP settings."
+msgstr ""
+"Her reklama .jpg, .png veya .gif formatında 1 görsel yükleyebilirsiniz. "
+"Görselin boyutu PHP ayarlarınızla sınırlıdır."
+
+#: admin/advert_edit.php:297 admin/banner_edit.php:191
+msgid ""
+"Define price settings if there exist budget for advert. Based on views, "
+"clicks, their prices and budget, when budget is spent, advert is not shown "
+"anymore."
+msgstr ""
+"İlan için bütçe varsa fiyat ayarlarını tanımlayın. Görüntülemelere, "
+"tıklamalara, fiyatlarına ve bütçelerine göre, bütçe harcandığında artık "
+"reklam gösterilmez."
+
+#: admin/advert_edit.php:298 admin/banner_edit.php:192
+msgid ""
+"Set when advert expire. After this date advert will not be visible. Leave "
+"blank to disable this option."
+msgstr ""
+"İlanın ne zaman sona ereceğini ayarlayın. Bu tarihten sonra ilan "
+"görüntülenmeyecektir. Bu seçeneği devre dışı bırakmak için boş bırakın."
+
+#: admin/advert_edit.php:299 admin/banner_edit.php:193
+msgid ""
+"If you want to show your advert just in some categories, select them. If you "
+"do not select any category, advert will be shown in all categories. Only "
+"root categories can be selected."
+msgstr ""
+"İlanınızı sadece bazı kategorilerde göstermek istiyorsanız, onları seçin. "
+"Herhangi bir kategori seçmezseniz, tüm kategorilerde ilan gösterilecektir. "
+"Yalnızca kök kategoriler seçilebilir."
+
+#: admin/advert_edit.php:300 admin/banner_edit.php:194
+msgid ""
+"Define size of banner in Pixels or Percentage. Insert only integer value or "
+"leave blank to use default size."
+msgstr ""
+"Banner boyutunu Piksel veya Yüzde olarak tanımlayın. Yalnızca tamsayı değeri "
+"girin veya varsayılan boyutu kullanmak için boş bırakın."
+
+#: admin/advert_edit.php:301
+msgid ""
+"Choose banners where advert will be shown/visible. Each advert must be added "
+"to banner to be visible."
+msgstr ""
+"İlanın gösterileceği/görünür olacağı banner'ları seçin. Her ilanın görünür "
+"olması için banner'a eklenmesi gerekir."
+
+#: admin/adverts.php:3 admin/adverts.php:17 admin/adverts.php:121
+#: admin/banners.php:37 index.php:116 index.php:148
+msgid "Adverts"
+msgstr "İlanlar"
+
+#: admin/adverts.php:30 admin/adverts.php:118 admin/banners.php:33
+#: admin/banners.php:91
+msgid "ID"
+msgstr "ID"
+
+#: admin/adverts.php:34 admin/banners.php:95
+msgid "Stats"
+msgstr "İstatistikler"
+
+#: admin/adverts.php:35 admin/banners.php:96 form/advert.php:97
+msgid "Status"
+msgstr "Durum"
+
+#: admin/adverts.php:36
+msgid "Assigned to Banners"
+msgstr "Banner'lara Atandı"
+
+#: admin/adverts.php:42
+msgid "No adverts found."
+msgstr "İlan bulunamadı."
+
+#: admin/adverts.php:49 admin/banners.php:106
+msgid "Click to edit advert"
+msgstr "İlanı düzenlemek için tıklayın"
+
+#: admin/adverts.php:54 admin/banners.php:111
+msgid "HTML"
+msgstr "HTML"
+
+#: admin/adverts.php:58 admin/banners.php:115
+msgid "Adsense"
+msgstr "Adsense"
+
+#: admin/adverts.php:65 admin/banners.php:122
+msgid "view"
+msgstr "görünüm"
+
+#: admin/adverts.php:66 admin/banners.php:123
+msgid "click"
+msgstr "tıklayın"
+
+#: admin/adverts.php:76 admin/banners.php:133 form/advert.php:85
+msgid "Active"
+msgstr "Aktif"
+
+#: admin/adverts.php:80 admin/banners.php:137 form/advert.php:89
+msgid "Budget exceed - spent"
+msgstr "Bütçe aşıldı - harcandı"
+
+#: admin/adverts.php:80 admin/banners.php:137 form/advert.php:89
+msgid "of"
+msgstr "ile"
+
+#: admin/adverts.php:83 admin/banners.php:140 form/advert.php:92
+msgid "Advert expired on"
+msgstr "İlanın süresi doldu"
+
+#: admin/adverts.php:96
+msgid ""
+"This advert has not been assigned/linked to any banner, therefore it will "
+"not be visible in front-office. First, add advert into at least one banner."
+msgstr ""
+"Bu ilan herhangi bir banner'a atanmamış/bağlantılı değildir, bu nedenle ön "
+"büroda görünmeyecektir. İlk olarak, en az bir banner'a ilan ekleyin."
+
+#: admin/adverts.php:97
+msgid "No banners assigned (hidden)"
+msgstr "Hiçbir afiş atanmadı (gizli)"
+
+#: admin/adverts.php:99 admin/banners.php:152
+#, php-format
+msgid "Assigned to %d banners"
+msgstr "%d banner'a atandı"
+
+#: admin/adverts.php:105 admin/adverts.php:156 admin/banners.php:78
+#: admin/banners.php:156
+msgid "Edit"
+msgstr "Düzenle"
+
+#: admin/adverts.php:108 admin/banners.php:159
+msgid "Are you sure you want to delete this advert?"
+msgstr "Bu ilanı silmek istediğinizden emin misiniz?"
+
+#: admin/adverts.php:108 admin/adverts.php:159 admin/banners.php:81
+#: admin/banners.php:159
+msgid "Delete"
+msgstr "Sil"
+
+#: admin/adverts.php:115
+msgid "List of banners those contains this advert"
+msgstr "Bu ilanı içeren banner'ların listesi"
+
+#: admin/adverts.php:119 admin/banners.php:34
+msgid "Banner name"
+msgstr "Banner adı"
+
+#: admin/adverts.php:122 admin/banners.php:36
+msgid "Hooks"
+msgstr "Kancalar"
+
+#: admin/adverts.php:131 admin/banners.php:49
+msgid "Click to edit banner"
+msgstr "Banner'ı düzenlemek için tıklayın"
+
+#: admin/adverts.php:137 admin/banner_edit.php:118 admin/banners.php:55
+msgid "Show all adverts"
+msgstr "Tüm ilanları göster"
+
+#: admin/adverts.php:139 admin/banner_edit.php:119 admin/banners.php:57
+msgid "Rotate adverts (with fade effect)"
+msgstr "İlanları döndür (solma efektli)"
+
+#: admin/adverts.php:141 admin/banner_edit.php:120 admin/banners.php:59
+msgid "Show 1 random advert"
+msgstr "1 rastgele ilan göster"
+
+#: admin/adverts.php:143 admin/banners.php:61
+msgid "Unknown"
+msgstr "Bilinmeyen"
+
+#: admin/adverts.php:149 admin/banners.php:73
+#, php-format
+msgid "Contains %d adverts"
+msgstr "%d ilan içeriyor"
+
+#: admin/adverts.php:159 admin/banners.php:81
+msgid "Are you sure you want to delete this banner?"
+msgstr "Bu banner'ı silmek istediğinizden emin misiniz?"
+
+#: admin/adverts.php:176 admin/banner_edit.php:160
+msgid "Create a new advert"
+msgstr "Yeni bir reklam oluştur"
+
+#: admin/banner_edit.php:11
+msgid "Banner successfully created."
+msgstr "Banner başarıyla oluşturuldu."
+
+#: admin/banner_edit.php:14
+msgid "Banner successfully updated."
+msgstr "Banner başarıyla güncellendi."
+
+#: admin/banner_edit.php:66
+msgid "Banner successfully removed"
+msgstr "Banner başarıyla silindi"
+
+#: admin/banner_edit.php:77
+msgid "Banner configuration"
+msgstr "Banner yapılandırması"
+
+#: admin/banner_edit.php:88 admin/banners.php:20 admin/configure.php:42
+msgid "Banner is build from adverts and is basically container for adverts."
+msgstr ""
+"Banner, ilanlardan oluşturulur ve temel olarak ilanlar için kapsayıcıdır."
+
+#: admin/banner_edit.php:89 admin/banners.php:21
+msgid ""
+"Banner can be interpreted newspaper those contains many pages (adverts)."
+msgstr "Banner, çok sayıda sayfa (ilan) içeren gazete olarak yorumlanabilir."
+
+#: admin/banner_edit.php:90 admin/banners.php:22
+msgid ""
+"In order to make banner visible in front-office, assign/link it to one or "
+"more hooks or place banner code directly into theme files."
+msgstr ""
+"Banner'ı ön büroda görünür kılmak için, onu bir veya daha fazla kancaya "
+"atayın/bağlayın veya banner kodunu doğrudan tema dosyalarına yerleştirin."
+
+#: admin/banner_edit.php:95
+msgid ""
+"If you want to show banner directly without adding it to hook, you can do it "
+"by adding following code into your theme file:"
+msgstr ""
+"Banner'ı kancaya eklemeden doğrudan göstermek istiyorsanız, tema dosyanıza "
+"aşağıdaki kodu ekleyerek yapabilirsiniz:"
+
+#: admin/banner_edit.php:103
+msgid "Banner ID"
+msgstr "Banner ID"
+
+#: admin/banner_edit.php:123
+msgid "Based on type of banner, adverts are shown in different way."
+msgstr "Banner türüne göre reklamlar farklı şekillerde gösterilir."
+
+#: admin/banner_edit.php:128
+msgid "Hook"
+msgstr "Kanca"
+
+#: admin/banner_edit.php:139
+msgid ""
+"Select hooks where you want to add banner. You should select at least 1 hook."
+msgstr ""
+"Banner eklemek istediğiniz kancaları seçin. En az 1 kanca seçmelisiniz."
+
+#: admin/banner_edit.php:140
+msgid "New hooks can be created on Configure page of plugin."
+msgstr "Eklentinin Yapılandırma sayfasında yeni kancalar oluşturulabilir."
+
+#: admin/banner_edit.php:145
+msgid "Adverts in Banner"
+msgstr "Banner'daki İlanlar"
+
+#: admin/banner_edit.php:154
+msgid "No adverts created yet"
+msgstr "Henüz ilan oluşturulmadı"
+
+#: admin/banner_edit.php:159
+msgid "Select adverts that will be shown in this banner."
+msgstr "Bu başlıkta gösterilecek ilanları seçin."
+
+#: admin/banners.php:3 admin/banners.php:16 index.php:115 index.php:147
+msgid "Banners"
+msgstr "Banner'lar"
+
+#: admin/banners.php:27
+msgid ""
+"If you want to show banner directly without adding it to hook, you can do it "
+"by adding following code into your theme file (replace 12345 with ID of your "
+"banner):"
+msgstr ""
+"Banner'ı kancaya eklemeden doğrudan göstermek istiyorsanız, tema dosyanıza "
+"aşağıdaki kodu ekleyerek yapabilirsiniz (12345'i banner'ınızın ID'si ile "
+"değiştirin):"
+
+#: admin/banners.php:42
+msgid "No banners found."
+msgstr "Banner bulunamadı."
+
+#: admin/banners.php:70
+msgid ""
+"This banner does not contain any advert, therefore it will not display "
+"anything in front-office. First, add at least one advert into this banner."
+msgstr ""
+"Bu banner herhangi bir ilan içermiyor, bu nedenle ön büroda hiçbir şey "
+"göstermeyecek. İlk olarak, bu banner'a en az bir ilan ekleyin."
+
+#: admin/banners.php:71
+msgid "No advert assigned (hidden)"
+msgstr "İlan atanmadı (gizli)"
+
+#: admin/banners.php:88
+msgid "List of adverts those contains this banner"
+msgstr "Bu banner'ı içeren ilanların listesi"
+
+#: admin/banners.php:92
+msgid "Advert Name"
+msgstr "İlan Adı"
+
+#: admin/banners.php:97
+msgid "Assignment"
+msgstr "Atama"
+
+#: admin/configure.php:3 admin/configure.php:30 index.php:114
+msgid "Configure"
+msgstr "Yapılandır"
+
+#: admin/configure.php:19
+msgid "Settings were successfully saved"
+msgstr "Ayarlar başarıyla kaydedildi"
+
+#: admin/configure.php:40
+msgid ""
+"Explanation of 3 key words in this plugin: Hook > Banner > Advert (relation "
+"is N:N:N)"
+msgstr ""
+"Bu eklentideki 3 anahtar kelimenin açıklaması: Hook > Banner > Advert "
+"(ilişki N:N:N)"
+
+#: admin/configure.php:43
+msgid ""
+"Hook is container for banners, basically place where banner is hooked and "
+"shown. Hooks are shown in front-office and using hooks, banners & adverts "
+"are shown."
+msgstr ""
+"Kanca, banner'lar için kaptır, temel olarak banner'ın takıldığı ve "
+"gösterildiği yerdir. Kancalar ön büroda gösterilir ve kancalar, banner'lar "
+"ve ilanlar gösterilir."
+
+#: admin/configure.php:44
+msgid ""
+"Hook can contain one or more banners; Banner can contain one or more "
+"adverts; Advert can be part of one or more banners; Banner can be hooked to "
+"one or more hooks;"
+msgstr ""
+"Kanca bir veya daha fazla banner içerebilir; Banner bir veya daha fazla ilan "
+"içerebilir; İlan, bir veya daha fazla banner'ın parçası olabilir; Banner bir "
+"veya daha fazla kancaya takılabilir;"
+
+#: admin/configure.php:48
+msgid "Custom Hooks"
+msgstr "Özel Kancalar"
+
+#: admin/configure.php:51
+msgid ""
+"Define your custom hooks, delimit by comma, no white spaces allowed. "
+"Example: my_hook,custom_hook,hook1,hook2"
+msgstr ""
+"Özel kancalarınızı tanımlayın, virgülle ayırın, beyaz boşluklara izin "
+"verilmez. Örnek: my_hook,custom_hook,hook1,hook2"
+
+#: admin/configure.php:55
+msgid "Currency Symbol"
+msgstr "Para Birimi Sembolü"
+
+#: admin/configure.php:58
+msgid "Currency symbol used on financial values in plugin."
+msgstr "Eklentideki finansal değerlerde kullanılan para birimi sembolü."
+
+#: admin/configure.php:62
+msgid "Slide Speed"
+msgstr "Slayt Hızı"
+
+#: admin/configure.php:64 admin/configure.php:72
+msgid "miliseconds"
+msgstr "milisaniye"
+
+#: admin/configure.php:66
+msgid ""
+"Specify time in miliseconds for banners of type Rotate Adverts how fast will "
+"be adverts rotated."
+msgstr ""
+"İlanları Döndür türündeki banner'lar için süreyi milisaniye cinsinden "
+"belirtin, ilanların ne kadar hızlı döndürüleceğini."
+
+#: admin/configure.php:70
+msgid "Slide Ticker"
+msgstr "Slayt İşareti"
+
+#: admin/configure.php:74
+msgid ""
+"Specify time in miliseconds for banners of type Rotate Adverts how long will "
+"be each advert shown."
+msgstr ""
+"İlanları Döndür türündeki banner'lar için süreyi milisaniye cinsinden "
+"belirtin, her bir ilanın ne kadar süreyle gösterileceğini."
+
+#: admin/configure.php:78
+msgid "Save"
+msgstr "Kaydet"
+
+#: admin/configure.php:88
+msgid "Plugin Setup"
+msgstr "Eklenti kur"
+
+#: admin/configure.php:92
+msgid ""
+"In general, plugin setup is very easy and you need to follow few basic steps:"
+msgstr ""
+"Genel olarak, eklenti kurulumu çok kolaydır ve birkaç temel adımı izlemeniz "
+"gerekir:"
+
+#: admin/configure.php:93
+msgid ""
+"Create advert - there are different types of adverts and each advert has "
+"different fields that are described on advert page. Advert is what is shown "
+"in front to users. You can create advert i.e. from Google Adsense code."
+msgstr ""
+"İlan oluştur - farklı türde ilanlar vardır ve her ilanın, ilan sayfasında "
+"açıklanan farklı alanları vardır. İlan, kullanıcıların önünde gösterilen "
+"şeydir. Google Adsense kodundan yani ilan oluşturabilirsiniz."
+
+#: admin/configure.php:94
+msgid ""
+"Create banner - when advert is done, you want to show it in front. Adverts "
+"are shown to users via banners. Banner is hook/container for adverts. Each "
+"banner can contain 1 or more adverts and you can choose in what way will be "
+"shown."
+msgstr ""
+"Banner oluşturun - ilan yapıldığında, onu önde göstermek istersiniz. "
+"İlanlar, bannerlar aracılığıyla kullanıcılara gösterilir. Banner, ilanlar "
+"için kanca/konteynerdir. Her banner 1 veya daha fazla ilan içerebilir ve "
+"hangi şekilde gösterileceğini seçebilirsiniz."
+
+#: admin/configure.php:95
+msgid ""
+"Add advert to banner - when banner & advert are created, add advert into "
+"newly created banner. Go to edit banner and in section Adverts in Banner you "
+"can choose adverts that will be visible in this banner. Alternatively you "
+"can go to edit advert and in section Banners, add it to your banner. You can "
+"do this also in time when banner is created."
+msgstr ""
+"Banner'a ilan ekle - banner ve ilan oluşturulduğunda, yeni oluşturulan "
+"banner'a ilan ekleyin. Banner'ı düzenle'ye gidin ve Banner'daki İlanlar "
+"bölümünde bu banner'da görünecek ilanları seçebilirsiniz. Alternatif olarak, "
+"ilanı düzenlemeye gidebilir ve Banner'lar bölümünde, afişinize "
+"ekleyebilirsiniz. Bunu banner oluşturulduğunda da yapabilirsiniz."
+
+#: admin/configure.php:96
+msgid ""
+"Ready to show banner in front - you need to define your own hooks (require "
+"theme modification). Go to banner edit page and in section Hook choose hooks "
+"where you want to show this banner. You can select multiple hooks. If you "
+"define your custom hooks in Dashboard page, these hooks will be visible "
+"there as well. Note that for your custom hooks, you need to modify your "
+"theme files to make them funcitonal. You can define hooks also in time when "
+"banner is created."
+msgstr ""
+"Banner'ı önde göstermeye hazır - kendi kancalarınızı tanımlamanız gerekir "
+"(tema değişikliği gerektirir). Banner düzenleme sayfasına gidin ve Kanca "
+"bölümünde bu banner'ı göstermek istediğiniz kancaları seçin. Birden fazla "
+"kanca seçebilirsiniz. Özel kancalarınızı Gösterge Tablosu sayfasında "
+"tanımlarsanız, bu kancalar orada da görünür olacaktır. Özel kancalarınız "
+"için tema dosyalarınızı işlevsel hale getirmek için değiştirmeniz "
+"gerektiğini unutmayın. Kancaları banner oluşturulduğunda da "
+"tanımlayabilirsiniz."
+
+#: admin/configure.php:97
+msgid ""
+"Custom hooks - if you want to place banners on specific position in your "
+"theme files, you can create your custom hook. When done, you need to place "
+"this hooks into your theme files in following form (replace hook1 with name "
+"of hook you have defined in section above):"
+msgstr ""
+"Özel kancalar - banner'ları tema dosyalarınızda belirli bir konuma "
+"yerleştirmek istiyorsanız, özel kancanızı oluşturabilirsiniz. Bittiğinde, bu "
+"kancaları aşağıdaki biçimde tema dosyalarınıza yerleştirmeniz gerekir "
+"(yukarıdaki bölümde tanımladığınız kanca adını kanca1 ile değiştirin):"
+
+#: admin/configure.php:111
+msgid ""
+"When you define some hook, you need to add it to your theme files to make it "
+"funcitonal. Place following code to your theme files (replace hook1 with "
+"name you have defined for hook):"
+msgstr ""
+"Bir kanca tanımladığınızda, onu işlevsel hale getirmek için tema "
+"dosyalarınıza eklemeniz gerekir. Aşağıdaki kodu tema dosyalarınıza "
+"yerleştirin (hook1'i kanca için tanımladığınız adla değiştirin):"
+
+#: admin/configure.php:112
+msgid ""
+"Define slide speed and ticker for banners with type Rotate Advert how fast "
+"will take to change advert and how long will be each advert visible. Fade "
+"effect is used."
+msgstr ""
+"İlanı Döndür türü ilanı değiştirmenin ne kadar süreceğini ve her bir ilanın "
+"ne kadar süreyle görünür olacağını banner'lar için slayt hızını ve ticker'ı "
+"tanımlayın. Fade efekti kullanılır."
+
+#: admin/configure.php:113
+msgid ""
+"Define currency symbol used on plugin financial information (price for "
+"clicks, price for views, budget, ...)."
+msgstr ""
+"Eklenti finansal bilgilerinde kullanılan para birimi sembolünü tanımlayın "
+"(tıklamalar için fiyat, görünümler için fiyat, bütçe, ...)."
+
+#: admin/configure.php:114
+msgid ""
+"Views and Clicks on advert are increased just for regular users. If you are "
+"logged in as admin (in oc-admin) and in same browser you browser your site "
+"and view/click on banner, views/clicks are not increased."
+msgstr ""
+"İlandaki Görüntülemeler ve Tıklamalar, yalnızca normal kullanıcılar için "
+"artırılır. Yönetici olarak (oc-admin'de) oturum açtıysanız ve aynı "
+"tarayıcıda sitenizi tararsanız ve banner'ı görüntüler/tıklarsanız, "
+"görüntülemeler/tıklamalar artmaz."
+
+#: form/advert.php:50
+msgid "Price for view"
+msgstr "Price for view"
+
+#: form/advert.php:54
+msgid "Price for click"
+msgstr "Tıklama fiyatı"
+
+#: form/advert.php:58
+msgid "Views count"
+msgstr "Görüntüleme sayısı"
+
+#: form/advert.php:62
+msgid "Clicks count"
+msgstr "Tıklama sayısı"
+
+#: form/advert.php:67
+msgid "Spent"
+msgstr "Harcanan"
+
+#: form/advert.php:71
+msgid "Spent %"
+msgstr "Harcanan %"
+
+#: form/advert.php:79
+msgid "Expire on"
+msgstr "Son kullanım tarihi"
+
+#: form/advert.php:109
+msgid "Advert showcase"
+msgstr "İlan vitrini"
+
+#: index.php:105 index.php:146
+msgid "Dashboard"
+msgstr "Gösterge Paneli"
+
+#: index.php:131
+msgid "Report Bug"
+msgstr "Report Bug"
+
+#: index.php:132
+msgid "Support Forums"
+msgstr "Destek Forumları"
+
+#: index.php:133
+msgid "Contact Us"
+msgstr "Bize Ulaşın"

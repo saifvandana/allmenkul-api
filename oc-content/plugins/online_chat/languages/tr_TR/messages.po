@@ -1,0 +1,264 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Online Chat Plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-30 16:43+0200\n"
+"PO-Revision-Date: 2022-03-16 10:09+0300\n"
+"Last-Translator: Miso <miso546@azet.sk>\n"
+"Language-Team: MB Themes <info@mb-themes.com>\n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-KeywordsList: __;_e;_m\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: languages/en_US\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: admin/configure.php:3 admin/configure.php:36 index.php:330 index.php:360
+msgid "Configure"
+msgstr "Yapılandır"
+
+#: admin/configure.php:19
+msgid "Your PHP version is:"
+msgstr "PHP versiyonu:"
+
+#: admin/configure.php:19
+msgid "This plugin require at least PHP 5.5.0 or later."
+msgstr "Bu eklenti en az PHP 5.5.0 veya sonraki bir sürümünü gerektirir."
+
+#: admin/configure.php:23
+msgid "Debug mode is enabled, online chat will not be functional! Disable debug mode in config.php"
+msgstr "Hata ayıklama modu etkinleştirildi, çevrimiçi sohbet çalışmayacak! config.php'de hata ayıklama modunu devre dışı bırakın"
+
+#: admin/configure.php:27
+msgid "Settings were successfully saved"
+msgstr "Ayarlar başarıyla kaydedildi"
+
+#: admin/configure.php:48
+msgid "Hook Initiate Chat Button"
+msgstr "Sohbet Başlat Düğmesine Kanca"
+
+#: admin/configure.php:51
+msgid "Button will be automatically hooked to item page (using item_detail hook) and no theme modifications are required."
+msgstr "Düğme, öğe sayfasına otomatik olarak bağlanacak (item_detail kancası kullanılarak) ve herhangi bir tema değişikliği gerekmeyecektir."
+
+#: admin/configure.php:55
+msgid "Message Check Time"
+msgstr "Mesaj Kontrol Zamanı"
+
+#: admin/configure.php:57 admin/configure.php:65 admin/configure.php:73
+msgid "seconds"
+msgstr "saniye"
+
+#: admin/configure.php:59
+msgid "Specify time in seconds how often server check for new messages and show them to user. (default: 10)"
+msgstr "Sunucunun yeni mesajları ne sıklıkla kontrol edeceğini ve bunları kullanıcıya göstereceği zamanı saniye cinsinden belirtin. (varsayılan: 10)"
+
+#: admin/configure.php:63
+msgid "User Online Check Time"
+msgstr "Kullanıcı Çevrimiçi Kontrol Süresi"
+
+#: admin/configure.php:67
+msgid "Specify time in seconds how often server check if user is online or not. (default: 120)"
+msgstr "Kullanıcının çevrimiçi olup olmadığını sunucunun ne sıklıkla kontrol edeceğini saniye cinsinden belirtin. (varsayılan: 120)"
+
+#: admin/configure.php:71
+msgid "Chat Closed Check Time"
+msgstr "Sohbet Kapandı Zamanı Kontrol Edin"
+
+#: admin/configure.php:75
+msgid "Specify time in seconds how often server check if chat has been closed. (default: 60)"
+msgstr "Sunucunun sohbetin kapatılıp kapatılmadığını ne sıklıkla kontrol edeceğini saniye cinsinden belirtin. (varsayılan: 60)"
+
+#: admin/configure.php:79
+msgid "Inactive Chat Removed After"
+msgstr "Etkin Olmayan Sohbet Kaldırıldıktan Sonra"
+
+#: admin/configure.php:81
+msgid "days"
+msgstr "gün"
+
+#: admin/configure.php:83
+msgid "Specify after how many days is inactive chat removed. (default: 7)"
+msgstr "Etkin olmayan sohbetin kaç gün sonra kaldırılacağını belirtin. (varsayılan: 7)"
+
+#: admin/configure.php:88
+msgid "Save"
+msgstr "Kaydet"
+
+#: admin/configure.php:90
+msgid "Save (demo - disabled)"
+msgstr "Kaydet(demo-pasif)"
+
+#: admin/configure.php:101
+msgid "Plugin Setup"
+msgstr "Eklenti Kurulumu"
+
+#: admin/configure.php:104
+msgid "If you want to place initiate chat button on specific place, you can use built-in function. This function has optional parameter $user_id that does not need to be used."
+msgstr "Belirli bir yere sohbet başlat düğmesini yerleştirmek istiyorsanız, yerleşik işlevi kullanabilirsiniz. Bu işlev, kullanılması gerekmeyen isteğe bağlı $user_id parametresine sahiptir."
+
+#: admin/configure.php:107
+msgid "If you want to show circle with user status (online - green, offline - gray), you can use built-in function. This function has optional parameter $user_id that does not need to be used."
+msgstr "Kullanıcı durumuyla (çevrimiçi - yeşil, çevrimdışı - gri) daire göstermek istiyorsanız, yerleşik işlevi kullanabilirsiniz. Bu işlev, kullanılması gerekmeyen isteğe bağlı $user_id parametresine sahiptir."
+
+#: admin/configure.php:116
+msgid "Help"
+msgstr "Yardım"
+
+#: admin/configure.php:119
+msgid "Enable to add button to start chat to item page into hook item_detail. Then no theme modifications are required."
+msgstr "item_detail kancasına öğe sayfasına sohbet başlatmak için düğme eklemeyi etkinleştirin. O zaman hiçbir tema değişikliği gerekmez."
+
+#: admin/configure.php:120
+msgid "Specify time in seconds. Do not put less than 5 seconds. Note that more often refresh means more load to server and your database, therefore make sure you are not overloading your machine and your site is running smoothly. Minimum time for message refresh is 3 seconds (less is risky). Minimum time for user online check is 30 seconds (less is risky). Minimum time for checking of chat closed is 30 seconds (less is risky). Put only integers!"
+msgstr "Süreyi saniye cinsinden belirtin. 5 saniyeden az koymayın. Daha sık yenilemenin sunucuya ve veritabanınıza daha fazla yük anlamına geldiğini unutmayın, bu nedenle makinenizi aşırı yüklemediğinizden ve sitenizin sorunsuz çalıştığından emin olun. Mesaj yenileme için minimum süre 3 saniyedir (daha az risklidir). Kullanıcı çevrimiçi kontrolü için minimum süre 30 saniyedir (daha az risklidir). Sohbetin kapalı olup olmadığını kontrol etmek için minimum süre 30 saniyedir (daha az risklidir). Sadece tamsayılar koyun!"
+
+#: admin/configure.php:121
+msgid "Specify after how many days are inactive chats removed. Plugin will check last activity on chat and remove it. Not that more days you add, more server resources are required as plugin tables are larger. Do not put more than 30 days. If you have hundreds of users online at same time, put it to 2 days to reduce table size as much as possible. Larger table is, more time takes to check for new messages."
+msgstr "Etkin olmayan sohbetlerin kaç gün sonra kaldırılacağını belirtin. Eklenti, sohbetteki son etkinliği kontrol edecek ve kaldıracaktır. Eklediğiniz daha fazla gün değil, eklenti tabloları daha büyük olduğundan daha fazla sunucu kaynağı gerekir. 30 günden fazla koymayın. Aynı anda yüzlerce çevrimiçi kullanıcınız varsa, tablo boyutunu mümkün olduğunca küçültmek için 2 güne koyun. Daha büyük tablo, yeni mesajları kontrol etmek için daha fazla zaman alır."
+
+#: functions.php:110 functions.php:114 functions.php:117 functions.php:120
+#: functions.php:172 functions.php:175 functions.php:177
+msgid "Chat unavailable"
+msgstr "Sohbet kullanılamıyor"
+
+#: functions.php:111 functions.php:172
+msgid "User is not registered"
+msgstr "Kullanıcı kayıtlı değil"
+
+#: functions.php:115 functions.php:175
+msgid "It is your listing"
+msgstr "Bu senin ilanın"
+
+#: functions.php:118 functions.php:177
+msgid "User has blocked you"
+msgstr "Kullanıcı sizi engelledi"
+
+#: functions.php:121 user/chat.php:126 user/chat.php:270
+msgid "User is offline"
+msgstr "Kullanıcı Çevrimdışı"
+
+#: functions.php:123 user/chat.php:175
+msgid "Start chatting"
+msgstr "Yazışma Başlat"
+
+#: functions.php:124
+msgid "User is online"
+msgstr "Kullanıcı Çevrimiçi"
+
+#: index.php:97
+msgid "Are you sure you want to remove this chat? Action cannot be undone."
+msgstr "Bu sohbeti kaldırmak istediğinizden emin misiniz? İşlem geri alınamaz."
+
+#: index.php:98
+msgid "Are you sure you want unblock this user? User will be able to contact you via chat."
+msgstr "Bu kullanıcının engellemesini kaldırmak istediğinizden emin misiniz? Kullanıcı sizinle sohbet yoluyla iletişim kurabilecektir."
+
+#: index.php:99
+msgid "User blocked"
+msgstr "Kullanıcı engellendi"
+
+#: index.php:100
+msgid "Chat transcript sent"
+msgstr "Sohbet dökümü gönderildi"
+
+#: index.php:101 user/chat.php:70
+msgid "Block all"
+msgstr "Hepsini engelle"
+
+#: index.php:102 user/chat.php:72
+msgid "Cancel full block"
+msgstr "Tam bloğu iptal et"
+
+#: index.php:103
+msgid "You have a new message!"
+msgstr "Yeni bir mesajınız var!"
+
+#: index.php:104 model/ModelOC.php:313 model/ModelOC.php:319
+msgid "All users blocked"
+msgstr "Tüm kullanıcılar engellendi"
+
+#: index.php:321
+msgid "Dashboard"
+msgstr "Gösterge Paneli"
+
+#: index.php:345
+msgid "Report Bug"
+msgstr "Hata Bildir"
+
+#: index.php:346
+msgid "Support Forums"
+msgstr "Yardım Forumları"
+
+#: index.php:347
+msgid "Contact Us"
+msgstr "Bize Ulaşın"
+
+#: user/chat.php:42
+msgid "Chat"
+msgstr "Sohbet"
+
+#: user/chat.php:45
+msgid "New message!"
+msgstr "Yeni Mesaj!"
+
+#: user/chat.php:59
+msgid "Login to start chatting"
+msgstr "Sohbete başlamak için giriş yapın"
+
+#: user/chat.php:60
+msgid "Sign in"
+msgstr "Giriş Yap"
+
+#: user/chat.php:67
+msgid "Blocked users"
+msgstr "Engellenen kullanıcılar"
+
+#: user/chat.php:87
+msgid "You do not block any users"
+msgstr "Hiçbir kullanıcıyı engelleyemezsiniz"
+
+#: user/chat.php:117 user/chat.php:246
+msgid "Block this user"
+msgstr "Bu kullanıcıyı engelle"
+
+#: user/chat.php:118 user/chat.php:250
+msgid "Mail me chat transcript"
+msgstr "Bana sohbet dökümünü e-postala"
+
+#: user/chat.php:127 user/chat.php:271
+msgid "Chat has ended"
+msgstr "Sohbet sona erdi"
+
+#: user/chat.php:139 user/chat.php:283
+msgid "Type your message here"
+msgstr "Mesajınızı buraya yazın"
+
+#: user/chat.php:158
+msgid "User"
+msgstr "Kullanıcı"
+
+#: user/chat.php:158
+msgid "is online!"
+msgstr "çevrimiçi!"
+
+#: user/chat.php:168
+msgid "Your name"
+msgstr "İsminiz"
+
+#: user/chat.php:172
+msgid "Message"
+msgstr "MEsaj"
+
+#: user/chat.php:244
+msgid "This user is blocked"
+msgstr "Bu kullanıcı engellendi"
+
+#: user/chat.php:294
+msgid "There are no chats yet"
+msgstr "Henüz sohbet yok"

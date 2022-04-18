@@ -1,0 +1,28 @@
+DROP TABLE IF EXISTS /*TABLE_PREFIX*/t_item_offer;
+CREATE TABLE /*TABLE_PREFIX*/t_item_offer (
+i_offer_id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+fk_i_item_id INT(10),
+i_quantity INT(3) DEFAULT 1,
+i_price bigint(20),
+i_status INT(1) DEFAULT 0,
+i_validate INT(1) DEFAULT 0,
+s_comment VARCHAR(5000),
+s_respond VARCHAR(5000),
+i_user_id INT(10),
+s_user_name VARCHAR(100),
+s_user_email VARCHAR(100),
+s_user_phone VARCHAR(100),
+d_datetime TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+
+PRIMARY KEY (i_offer_id)
+) ENGINE=InnoDB DEFAULT CHARACTER SET 'UTF8' COLLATE 'UTF8_GENERAL_CI';
+
+
+DROP TABLE IF EXISTS /*TABLE_PREFIX*/t_item_offer_setting;
+CREATE TABLE /*TABLE_PREFIX*/t_item_offer_setting(
+pk_i_id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+fk_i_item_id INT(10),
+i_enabled INT(1) DEFAULT 0,
+
+PRIMARY KEY (pk_i_id)
+) ENGINE=InnoDB DEFAULT CHARACTER SET 'UTF8' COLLATE 'UTF8_GENERAL_CI';

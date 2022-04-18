@@ -1,0 +1,501 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Attributes Plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-04 09:10+0100\n"
+"PO-Revision-Date: 2022-01-04 09:10+0100\n"
+"Last-Translator: Miso <miso546@azet.sk>\n"
+"Language-Team: MB Themes <info@mb-themes.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-KeywordsList: __;_e;_m\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: languages/en_US\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: admin/configure.php:3 admin/configure.php:157 admin/edit.php:3 index.php:73
+#: index.php:82 index.php:112
+msgid "Configure"
+msgstr ""
+
+#: admin/configure.php:14 admin/edit.php:12
+msgid "Settings were successfully saved"
+msgstr ""
+
+#: admin/configure.php:50 admin/edit.php:50
+msgid ""
+"There was problem updating attribute, database structure for table "
+"t_attribute does not match! Disable/Enable plugin and if error still "
+"persist, reinstall plugin."
+msgstr ""
+
+#: admin/configure.php:52 admin/edit.php:52
+msgid "Attribute successfully updated"
+msgstr ""
+
+#: admin/configure.php:71
+msgid "Attribute removed successfully"
+msgstr ""
+
+#: admin/configure.php:80
+msgid "Attribute created successfully"
+msgstr ""
+
+#: admin/configure.php:96 functions.php:374
+msgid "Attributes"
+msgstr ""
+
+#: admin/configure.php:121 functions.php:43 functions.php:498 functions.php:839
+msgid "New attribute"
+msgstr ""
+
+#: admin/configure.php:129
+msgid "values"
+msgstr ""
+
+#: admin/configure.php:132
+msgid "Are you sure you want to remove this attribute? Action cannot be undone"
+msgstr ""
+
+#: admin/configure.php:132
+msgid "Delete"
+msgstr ""
+
+#: admin/configure.php:135
+msgid "Edit"
+msgstr ""
+
+#: admin/configure.php:144
+msgid "You have not created any attributes yet"
+msgstr ""
+
+#: admin/configure.php:147
+msgid "Add new attribute"
+msgstr ""
+
+#: admin/configure.php:168
+msgid "Styled Inputs"
+msgstr ""
+
+#: admin/configure.php:171
+msgid ""
+"When enabled, all inputs (input, select, textarea, ...) will be styled by "
+"plugin. Disable this if your theme style plugin inputs in acceptable way."
+msgstr ""
+
+#: admin/configure.php:178
+msgid "This is demo site"
+msgstr ""
+
+#: admin/configure.php:178 admin/configure.php:180
+msgid "Save"
+msgstr ""
+
+#: admin/configure.php:190 admin/edit.php:252
+msgid "Plugin Setup"
+msgstr ""
+
+#: admin/configure.php:194 admin/edit.php:256
+msgid ""
+"No theme modification are required to use all functions of plugin on 100%, "
+"however if you want to place some attributes on item page (or loops) to "
+"other than hook position, you can show each field calling following function."
+msgstr ""
+
+#: admin/configure.php:198 admin/edit.php:260
+msgid ""
+"{attribute id} replace with ID of attribute. Example: "
+"atr_show_attribute( 7 );"
+msgstr ""
+
+#: admin/configure.php:209 admin/edit.php:301
+msgid "Success!"
+msgstr ""
+
+#: admin/configure.php:210 admin/edit.php:302
+msgid "Updating, please wait..."
+msgstr ""
+
+#: admin/configure.php:211 admin/edit.php:303
+msgid "Error!"
+msgstr ""
+
+#: admin/edit.php:80
+msgid "Edit attribute"
+msgstr ""
+
+#: admin/edit.php:107
+msgid "Attribute Id"
+msgstr ""
+
+#: admin/edit.php:112
+msgid "Attribute Name"
+msgstr ""
+
+#: admin/edit.php:117
+msgid "Identifier"
+msgstr ""
+
+#: admin/edit.php:122
+msgid "Type"
+msgstr ""
+
+#: admin/edit.php:124 admin/edit.php:179
+msgid "Select box"
+msgstr ""
+
+#: admin/edit.php:125 admin/edit.php:180
+msgid "Radio buttons"
+msgstr ""
+
+#: admin/edit.php:126
+msgid "Checkboxes"
+msgstr ""
+
+#: admin/edit.php:127
+msgid "Text input"
+msgstr ""
+
+#: admin/edit.php:128
+msgid "Numerical input"
+msgstr ""
+
+#: admin/edit.php:129
+msgid "Text area"
+msgstr ""
+
+#: admin/edit.php:130
+msgid "Date"
+msgstr ""
+
+#: admin/edit.php:131
+msgid "Date range"
+msgstr ""
+
+#: admin/edit.php:132
+msgid "URL address"
+msgstr ""
+
+#: admin/edit.php:133
+msgid "Phone number"
+msgstr ""
+
+#: admin/edit.php:134
+msgid "Email address"
+msgstr ""
+
+#: admin/edit.php:140
+msgid "Category"
+msgstr ""
+
+#: admin/edit.php:147
+msgid "If not category selected, advert is shown in all categories."
+msgstr ""
+
+#: admin/edit.php:151
+msgid "Enabled"
+msgstr ""
+
+#: admin/edit.php:156
+msgid "Required"
+msgstr ""
+
+#: admin/edit.php:161
+msgid "Add to Item"
+msgstr ""
+
+#: admin/edit.php:166
+msgid "Show all Values"
+msgstr ""
+
+#: admin/edit.php:171
+msgid "Add to Search"
+msgstr ""
+
+#: admin/edit.php:176
+msgid "Search Type"
+msgstr ""
+
+#: admin/edit.php:178
+msgid "Default"
+msgstr ""
+
+#: admin/edit.php:181
+msgid "Checkbox"
+msgstr ""
+
+#: admin/edit.php:182
+msgid "Boxed layout (radio/check)"
+msgstr ""
+
+#: admin/edit.php:187
+msgid "Search Engine"
+msgstr ""
+
+#: admin/edit.php:189
+msgid "Item match to all selected values"
+msgstr ""
+
+#: admin/edit.php:190
+msgid "Item match to any of selected values"
+msgstr ""
+
+#: admin/edit.php:195
+msgid "Search Values"
+msgstr ""
+
+#: admin/edit.php:197
+msgid "Show all attribute values"
+msgstr ""
+
+#: admin/edit.php:198
+msgid "Show only non-empty values"
+msgstr ""
+
+#: admin/edit.php:203
+msgid "Range Search"
+msgstr ""
+
+#: admin/edit.php:208
+msgid "Single Selection"
+msgstr ""
+
+#: admin/edit.php:215
+msgid "Attribute values"
+msgstr ""
+
+#: admin/edit.php:216
+msgid "No values added yet"
+msgstr ""
+
+#: admin/edit.php:217
+msgid "Custom values are not allowed for this type of attribute"
+msgstr ""
+
+#: admin/edit.php:224
+msgid "Add value"
+msgstr ""
+
+#: admin/edit.php:227
+msgid "... or create from list: val1;val2;val3;..."
+msgstr ""
+
+#: admin/edit.php:228
+msgid "Ok"
+msgstr ""
+
+#: admin/edit.php:235
+msgid "Update attribute"
+msgstr ""
+
+#: admin/edit.php:269
+msgid "Help"
+msgstr ""
+
+#: admin/edit.php:272
+msgid ""
+"Unique attribute ID, cannot be changed and is automatically generated by "
+"plugin."
+msgstr ""
+
+#: admin/edit.php:273
+msgid ""
+"Name is used as label and can be multilingual - for each language different."
+msgstr ""
+
+#: admin/edit.php:274
+msgid ""
+"Identifier is used as ID on row that keeps attribute data in pattern \"atr-"
+"{identifier}\" so you can reference to in in style sheets."
+msgstr ""
+
+#: admin/edit.php:275
+msgid ""
+"Type of attribute. Select box can have nested values up to 8 levels. Radio & "
+"checkboxes can have values and are multilingual. Other inputs cannot have "
+"values."
+msgstr ""
+
+#: admin/edit.php:276
+msgid ""
+"Select in which categories will be attribute shown. This takes effect on "
+"search & publish page. If no category is selected, attribute is shown in all "
+"categories."
+msgstr ""
+
+#: admin/edit.php:277
+msgid ""
+"If attribute is disabled, it is not showing on publish, edit and search page"
+msgstr ""
+
+#: admin/edit.php:278
+msgid ""
+"When required, on publish & edit page user must enter value. This works for "
+"checkboxes as well (at least 1 must be selected)."
+msgstr ""
+
+#: admin/edit.php:279
+msgid ""
+"Enable to add field into search form on search page. Users can search by "
+"this attribute then. Text fields (text, phone, email, ...) are searched "
+"using wild character (contains)."
+msgstr ""
+
+#: admin/edit.php:280
+msgid ""
+"Enable to add attribute into hook. This attribute will be shown on item page "
+"without need to modify theme. You may disable this and add attribute "
+"manually to item.php on place you like."
+msgstr ""
+
+#: admin/edit.php:281
+msgid ""
+"When enabled, then all radio & checkbox values are shown on item page. Those "
+"not selected by user are shaded. For select boxes, whole hierarchy is shown "
+"instead of lowest level."
+msgstr ""
+
+#: admin/edit.php:282
+msgid ""
+"For select box, radio buttons and checkboxes you may select different layout "
+"that will be used on search page: Select box or Radio buttons. Even this "
+"feature is enabled also for multi-level select boxes, we recommend to use it "
+"just for 1 level select box."
+msgstr ""
+
+#: admin/edit.php:283
+msgid ""
+"When enabled, on search page range search for this attribute will be "
+"generated and will consist of 2 inputs those accept only numerical values. "
+"This option is enabled for select box, radio buttons, checkboxes, text and "
+"textarea types of attributes. When attribute has predefined values, IDs of "
+"these values are used for comparison, otherwise field value is used. It is "
+"recommended just for fields with numerical values, however plugin will "
+"convert also strings into integers (i.e. 5 seats is converted into number "
+"5). Anyway it works for string values, we guarantee correct functionality "
+"just for numerical values."
+msgstr ""
+
+#: admin/edit.php:284
+msgid ""
+"When enabled, on publish page for checkbox type of attribute it is possible "
+"to select one and only one value (same as radion button)."
+msgstr ""
+
+#: admin/edit.php:285
+msgid ""
+"If listing must match to all selected values, only those listings that "
+"really have all values selected (during publish) will be shown in search. If "
+"any of selected values is activated, any listing that match at least to one "
+"selected value will be shown in search."
+msgstr ""
+
+#: admin/edit.php:286
+msgid ""
+"Select if all attribute values are shown or search OR only values those were "
+"selected on at least 1 listing will be shown."
+msgstr ""
+
+#: admin/edit.php:288
+msgid ""
+"Values Images - you can define whole link to image or reference to icons "
+"delivered with plugin located in folder /img/default. To use one of these "
+"icons, you do not need to write full path, only start on default foder, "
+"plugin recognize it. Example: default/cars/engine.png"
+msgstr ""
+
+#: admin/edit.php:289
+msgid ""
+"Plugin comes with hundreds of icons that can be used for values and found in "
+"folder:"
+msgstr ""
+
+#: functions.php:53
+msgid "Min."
+msgstr ""
+
+#: functions.php:55
+msgid "Max."
+msgstr ""
+
+#: functions.php:76 functions.php:115 functions.php:134 functions.php:167
+#, php-format
+msgid "Select %s ..."
+msgstr ""
+
+#: functions.php:76 functions.php:97 functions.php:115 functions.php:134
+#: functions.php:167 functions.php:867 functions.php:884 functions.php:897
+#: functions.php:1120
+msgid "Select value ..."
+msgstr ""
+
+#: functions.php:176 functions.php:921
+msgid "Select all"
+msgstr ""
+
+#: functions.php:177 functions.php:922
+msgid "Deselect all"
+msgstr ""
+
+#: functions.php:513
+msgid "to"
+msgstr ""
+
+#: functions.php:581
+msgid "- no selection - "
+msgstr ""
+
+#: functions.php:809 functions.php:814
+#, php-format
+msgid "You have not filled required field: %s"
+msgstr ""
+
+#: functions.php:1255
+msgid "Value"
+msgstr ""
+
+#: functions.php:1256
+msgid "Icon link"
+msgstr ""
+
+#: functions.php:1257
+msgid "Remove"
+msgstr ""
+
+#: index.php:97
+msgid "Report Bug"
+msgstr ""
+
+#: index.php:98
+msgid "Support Forums"
+msgstr ""
+
+#: index.php:99
+msgid "Contact Us"
+msgstr ""
+
+#: user/required.php:11
+msgid "Field ID:"
+msgstr ""
+
+#: user/required.php:20
+msgid "(Start)"
+msgstr ""
+
+#: user/required.php:21
+msgid "(End)"
+msgstr ""
+
+#: user/required.php:61
+msgid "Select at least one option on field"
+msgstr ""
+
+#: user/required.php:80
+#, php-format
+msgid "Required field: %s"
+msgstr ""

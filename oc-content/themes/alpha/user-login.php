@@ -1,0 +1,1 @@
+<?php header('Location:' . alp_reg_url('login')); ?>
